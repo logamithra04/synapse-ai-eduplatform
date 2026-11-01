@@ -371,7 +371,7 @@ export const DataTutorDrawer: React.FC<DataTutorDrawerProps> = ({
                   type="password"
                   value={keyInput}
                   onChange={(e) => setKeyInput(e.target.value)}
-                  placeholder="Paste your Gemini API key (AIzaSy...)"
+                  placeholder="Enter your Gemini API key"
                   className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-100 font-mono text-xs focus:outline-none focus:border-indigo-500"
                 />
 

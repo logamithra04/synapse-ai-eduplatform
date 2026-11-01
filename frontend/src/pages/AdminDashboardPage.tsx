@@ -17,16 +17,11 @@ import {
   Film,
   ExternalLink,
   X,
-  Zap
 } from 'lucide-react';
 import { apiRequest } from '../api/client';
 import { Course, CourseCategory, Module, Lesson } from '../types';
 
-interface AdminDashboardPageProps {
-  onOpenSupabaseModal?: () => void;
-}
-
-export const AdminDashboardPage: React.FC<AdminDashboardPageProps> = ({ onOpenSupabaseModal }) => {
+export const AdminDashboardPage: React.FC = () => {
   const [courses, setCourses] = useState<Course[]>([]);
   const [categories, setCategories] = useState<CourseCategory[]>([]);
   const [loading, setLoading] = useState(true);
@@ -365,22 +360,15 @@ export const AdminDashboardPage: React.FC<AdminDashboardPageProps> = ({ onOpenSu
             <div className="text-[11px] text-slate-400 mt-1">Curriculum specializations</div>
           </div>
 
-          <div 
-            onClick={onOpenSupabaseModal}
-            className="bg-slate-900 border border-emerald-500/30 p-5 rounded-xl shadow-sm hover:border-emerald-500/60 cursor-pointer transition-all group"
-            title="Click to configure Supabase Cloud Database"
-          >
+          <div className="bg-slate-900 border border-slate-800 p-5 rounded-xl shadow-sm">
             <div className="flex items-center justify-between text-slate-400 text-xs">
-              <span>Cloud Persistence</span>
-              <Zap className="w-4 h-4 text-[#3ECF8E] group-hover:scale-110 transition-transform" />
+              <span>Curriculum Modules</span>
+              <BookOpen className="w-4 h-4 text-emerald-400" />
             </div>
-            <div className="text-lg font-black text-white mt-1 flex items-center gap-1.5">
-              <span>Supabase DB</span>
-              <span className="w-2 h-2 rounded-full bg-[#3ECF8E] animate-pulse"></span>
+            <div className="text-2xl font-black text-white mt-1">
+              {courses.reduce((acc, c) => acc + (c.modules?.length || 0), 0)}
             </div>
-            <div className="text-[11px] text-emerald-400 mt-1 flex items-center gap-1 font-semibold">
-              <span>Configure Sync &rarr;</span>
-            </div>
+            <div className="text-[11px] text-emerald-400 mt-1">Learning units across tracks</div>
           </div>
         </div>
 

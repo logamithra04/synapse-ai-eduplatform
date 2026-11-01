@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { 
   Terminal, Flame, BookOpen, Code, Briefcase, BarChart2, 
   Sparkles, LogOut, User as UserIcon, Shield, Menu, X, CheckCircle,
-  GraduationCap, Zap
+  GraduationCap
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
-import { fetchBackendSupabaseStatus, getStoredSupabaseConfig } from '../../api/supabase';
 
 interface NavbarProps {
   currentTab: string;
   setCurrentTab: (tab: string) => void;
   openAiTutor: () => void;
-  openSupabaseModal?: () => void;
 }
 
 interface NavItem {
@@ -20,28 +18,10 @@ interface NavItem {
   icon: React.ComponentType<{ className?: string }>;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, openAiTutor, openSupabaseModal }) => {
+export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, openAiTutor }) => {
   const { user, logout, quickLoginAsStudent, quickLoginAsAdmin, quickLoginAsMentor } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
-  const [supabaseConnected, setSupabaseConnected] = useState(false);
-
-  useEffect(() => {
-    const checkSupabase = async () => {
-      try {
-        const status = await fetchBackendSupabaseStatus();
-        setSupabaseConnected(status.connected);
-      } catch {
-        const cfg = getStoredSupabaseConfig();
-        setSupabaseConnected(Boolean(cfg.url && cfg.key));
-      }
-    };
-    checkSupabase();
-
-    const handleUpdate = () => checkSupabase();
-    window.addEventListener('supabase_config_updated', handleUpdate);
-    return () => window.removeEventListener('supabase_config_updated', handleUpdate);
-  }, []);
 
   // Strict role-based navigation: Unwanted items removed for Admin and Mentor
   const getNavItems = (): NavItem[] => {
@@ -136,26 +116,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, openA
 
           {/* Right Action Items */}
           <div className="flex items-center gap-2 sm:gap-2.5 shrink-0">
-            {/* Supabase Cloud Database Status Button */}
-            <button
-              onClick={openSupabaseModal}
-              className={`inline-flex items-center px-2.5 py-1.5 text-xs sm:text-sm font-semibold rounded-xl transition-all shadow-xs whitespace-nowrap shrink-0 border ${
-                supabaseConnected
-                  ? 'text-emerald-700 bg-emerald-50 border-emerald-300 hover:bg-emerald-100/80'
-                  : 'text-slate-700 bg-slate-50 border-slate-200 hover:bg-slate-100 hover:text-slate-900'
-              }`}
-              title="Supabase Cloud Database & PostgreSQL Settings"
-            >
-              <span className="relative flex h-2 w-2 mr-1.5 shrink-0">
-                {supabaseConnected && (
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#3ECF8E] opacity-75"></span>
-                )}
-                <span className={`relative inline-flex rounded-full h-2 w-2 ${supabaseConnected ? 'bg-[#1c865a]' : 'bg-slate-400'}`}></span>
-              </span>
-              <Zap className={`w-3.5 h-3.5 mr-1 shrink-0 ${supabaseConnected ? 'text-[#1c865a] fill-[#3ECF8E]' : 'text-slate-500'}`} />
-              <span className="whitespace-nowrap">{supabaseConnected ? 'Supabase Active' : 'Supabase Cloud'}</span>
-            </button>
-
             {/* AI Learning Assistant trigger button */}
             <button
               onClick={openAiTutor}

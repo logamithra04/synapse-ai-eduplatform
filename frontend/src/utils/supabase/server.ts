@@ -2,12 +2,10 @@ import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
 
 const supabaseUrl =
-  (typeof process !== "undefined" && process.env?.NEXT_PUBLIC_SUPABASE_URL) ||
-  "https://gawaupyzdclgbhqxcedi.supabase.co";
+  (typeof process !== "undefined" && process.env?.NEXT_PUBLIC_SUPABASE_URL) || "";
 
 const supabaseKey =
-  (typeof process !== "undefined" && process.env?.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) ||
-  "sb_publishable_iX9F2WSVD6xAzpHKlQXPVQ_SbjWjgTW";
+  (typeof process !== "undefined" && process.env?.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) || "";
 
 export const createClient = (cookieStore: Awaited<ReturnType<typeof cookies>>) => {
   return createServerClient(

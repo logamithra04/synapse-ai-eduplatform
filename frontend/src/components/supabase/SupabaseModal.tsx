@@ -475,7 +475,7 @@ export const SupabaseModal: React.FC<SupabaseModalProps> = ({ isOpen, onClose })
                       </div>
                     </div>
                     <div className="p-2 bg-slate-900 text-slate-200 rounded-lg text-[11px] font-mono break-all border border-slate-800">
-                      {computedDbUrl}
+                      {computedDbUrl.replace(/(:\/\/[^:]+:)([^@]+)(@)/, '$1••••••••$3')}
                     </div>
                   </div>
 

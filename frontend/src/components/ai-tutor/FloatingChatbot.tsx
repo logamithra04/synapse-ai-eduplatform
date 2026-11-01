@@ -363,7 +363,7 @@ export const FloatingChatbot: React.FC<FloatingChatbotProps> = ({
                   type="password"
                   value={keyInput}
                   onChange={(e) => setKeyInput(e.target.value)}
-                  placeholder="Paste AI Studio Key (AQ.Ab...)"
+                  placeholder="Enter your Gemini API key"
                   className="flex-1 text-xs px-3 py-1.5 border border-slate-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-indigo-500 font-mono"
                 />
                 <button

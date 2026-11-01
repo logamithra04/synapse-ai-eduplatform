@@ -4,7 +4,6 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { DataTutorDrawer } from './components/ai-tutor/DataTutorDrawer';
 import { FloatingChatbot } from './components/ai-tutor/FloatingChatbot';
-import { SupabaseModal } from './components/supabase/SupabaseModal';
 
 // Pages
 import { LandingPage } from './pages/LandingPage';
@@ -30,9 +29,6 @@ const AppContent: React.FC = () => {
   const [activeLessonId, setActiveLessonId] = useState<number>(1);
   const [activeProjectId, setActiveProjectId] = useState<number>(1);
   const [filterCategory, setFilterCategory] = useState<string>('all');
-
-  // Supabase Cloud modal state
-  const [isSupabaseModalOpen, setIsSupabaseModalOpen] = useState<boolean>(false);
 
   // AI Tutor context state
   const [isAiTutorOpen, setIsAiTutorOpen] = useState<boolean>(false);
@@ -144,7 +140,6 @@ const AppContent: React.FC = () => {
         currentTab={currentTab}
         setCurrentTab={(tab) => handleNavigate(tab)}
         openAiTutor={() => handleOpenAiTutor()}
-        openSupabaseModal={() => setIsSupabaseModalOpen(true)}
       />
 
       {/* Main Content Area */}
@@ -245,19 +240,13 @@ const AppContent: React.FC = () => {
         )}
 
         {currentTab === 'admin' && (
-          <AdminDashboardPage onOpenSupabaseModal={() => setIsSupabaseModalOpen(true)} />
+          <AdminDashboardPage />
         )}
 
         {currentTab === 'mentor' && (
           <MentorDashboardPage />
         )}
       </main>
-
-      {/* Supabase Dynamic Cloud Database Modal */}
-      <SupabaseModal
-        isOpen={isSupabaseModalOpen}
-        onClose={() => setIsSupabaseModalOpen(false)}
-      />
 
       {/* Persistent Floating Chatbot anchored at bottom-right */}
       <FloatingChatbot

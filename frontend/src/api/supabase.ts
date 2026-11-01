@@ -38,11 +38,11 @@ export function getStoredSupabaseConfig(): SupabaseConfig {
   const envUrl = 
     (import.meta as any).env?.VITE_SUPABASE_URL || 
     (import.meta as any).env?.NEXT_PUBLIC_SUPABASE_URL || 
-    'https://gawaupyzdclgbhqxcedi.supabase.co';
+    '';
   const envKey = 
     (import.meta as any).env?.VITE_SUPABASE_ANON_KEY || 
     (import.meta as any).env?.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 
-    'sb_publishable_iX9F2WSVD6xAzpHKlQXPVQ_SbjWjgTW';
+    '';
 
   if (envUrl && envKey) {
     return { url: envUrl, key: envKey, source: 'env' };
