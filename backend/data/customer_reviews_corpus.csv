@@ -1,0 +1,751 @@
+review_id,product_category,headline,review_text,star_rating,verified_purchase,helpful_votes,sentiment
+REV_10001,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10002,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10003,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10004,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10005,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10006,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,0,positive
+REV_10007,Electronics,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10008,Electronics,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,5,negative
+REV_10009,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10010,Electronics,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10011,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10012,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10013,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,42,neutral
+REV_10014,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,5,neutral
+REV_10015,Electronics,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,1,negative
+REV_10016,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10017,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10018,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,1,neutral
+REV_10019,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10020,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,1,negative
+REV_10021,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10022,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10023,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10024,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10025,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10026,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10027,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,5,negative
+REV_10028,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,42,negative
+REV_10029,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,14,positive
+REV_10030,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10031,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10032,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,0,positive
+REV_10033,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10034,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,0,positive
+REV_10035,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10036,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10037,Electronics,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,No,1,negative
+REV_10038,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10039,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10040,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,0,positive
+REV_10041,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10042,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10043,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10044,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,42,positive
+REV_10045,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,14,positive
+REV_10046,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10047,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10048,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,42,neutral
+REV_10049,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10050,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10051,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10052,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10053,Books,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10054,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10055,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10056,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,5,negative
+REV_10057,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,5,neutral
+REV_10058,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10059,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10060,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,14,positive
+REV_10061,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10062,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10063,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,14,neutral
+REV_10064,Personal Tech,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,0,neutral
+REV_10065,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,0,neutral
+REV_10066,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10067,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10068,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,5,negative
+REV_10069,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10070,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,2,negative
+REV_10071,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10072,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10073,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10074,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10075,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,42,negative
+REV_10076,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10077,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10078,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10079,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10080,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10081,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,1,neutral
+REV_10082,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,1,positive
+REV_10083,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,1,negative
+REV_10084,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,2,negative
+REV_10085,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10086,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10087,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10088,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10089,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10090,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10091,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,5,neutral
+REV_10092,Electronics,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10093,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,42,positive
+REV_10094,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10095,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10096,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10097,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10098,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10099,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10100,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10101,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10102,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,14,neutral
+REV_10103,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10104,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,1,negative
+REV_10105,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10106,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,2,negative
+REV_10107,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10108,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10109,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10110,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10111,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,14,neutral
+REV_10112,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10113,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10114,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10115,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,No,0,negative
+REV_10116,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10117,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,2,neutral
+REV_10118,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10119,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10120,Electronics,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10121,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,2,negative
+REV_10122,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10123,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10124,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10125,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10126,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10127,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10128,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10129,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10130,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10131,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10132,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10133,Electronics,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10134,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10135,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10136,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10137,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10138,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,0,neutral
+REV_10139,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10140,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10141,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,1,positive
+REV_10142,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10143,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10144,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10145,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10146,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10147,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10148,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10149,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10150,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10151,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10152,Books,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10153,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10154,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10155,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10156,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,2,negative
+REV_10157,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10158,Electronics,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,1,neutral
+REV_10159,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10160,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,0,positive
+REV_10161,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10162,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10163,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10164,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10165,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10166,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10167,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10168,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,42,positive
+REV_10169,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10170,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10171,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10172,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10173,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10174,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10175,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10176,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10177,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10178,Electronics,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10179,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10180,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,42,neutral
+REV_10181,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10182,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,5,negative
+REV_10183,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10184,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,1,neutral
+REV_10185,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10186,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10187,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10188,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10189,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10190,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10191,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10192,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10193,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10194,Books,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,5,neutral
+REV_10195,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10196,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10197,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,2,negative
+REV_10198,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,14,neutral
+REV_10199,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,0,neutral
+REV_10200,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10201,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10202,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10203,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10204,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,2,negative
+REV_10205,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10206,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,14,neutral
+REV_10207,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,5,positive
+REV_10208,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10209,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,0,positive
+REV_10210,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,5,positive
+REV_10211,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10212,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10213,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,14,positive
+REV_10214,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,14,positive
+REV_10215,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,42,negative
+REV_10216,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10217,Electronics,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10218,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10219,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,2,positive
+REV_10220,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10221,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10222,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,5,positive
+REV_10223,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10224,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10225,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10226,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10227,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10228,Sports & Outdoors,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10229,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10230,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10231,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10232,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10233,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10234,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10235,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,5,positive
+REV_10236,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10237,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10238,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10239,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10240,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10241,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,42,negative
+REV_10242,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,5,negative
+REV_10243,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10244,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10245,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,1,positive
+REV_10246,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10247,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,0,positive
+REV_10248,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10249,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10250,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10251,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10252,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,0,positive
+REV_10253,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10254,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,1,positive
+REV_10255,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,5,positive
+REV_10256,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10257,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10258,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,14,positive
+REV_10259,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10260,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,5,positive
+REV_10261,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10262,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,2,neutral
+REV_10263,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,0,positive
+REV_10264,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10265,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10266,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,42,neutral
+REV_10267,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10268,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10269,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10270,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10271,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,5,neutral
+REV_10272,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10273,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10274,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,42,neutral
+REV_10275,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10276,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,1,positive
+REV_10277,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10278,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10279,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10280,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10281,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,No,2,negative
+REV_10282,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,14,positive
+REV_10283,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10284,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10285,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10286,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,2,neutral
+REV_10287,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,0,neutral
+REV_10288,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10289,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,5,positive
+REV_10290,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10291,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10292,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,0,positive
+REV_10293,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10294,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,0,positive
+REV_10295,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10296,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10297,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10298,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10299,Electronics,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,5,negative
+REV_10300,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10301,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10302,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,0,neutral
+REV_10303,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10304,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10305,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10306,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10307,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10308,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10309,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10310,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10311,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10312,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10313,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10314,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10315,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,No,1,negative
+REV_10316,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10317,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10318,Sports & Outdoors,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,2,negative
+REV_10319,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,1,positive
+REV_10320,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,0,negative
+REV_10321,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10322,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,14,positive
+REV_10323,Books,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10324,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10325,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10326,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10327,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10328,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10329,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10330,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,14,positive
+REV_10331,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10332,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,5,neutral
+REV_10333,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10334,Electronics,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10335,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10336,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10337,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,42,positive
+REV_10338,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,42,positive
+REV_10339,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,5,neutral
+REV_10340,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10341,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,42,positive
+REV_10342,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10343,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10344,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,14,positive
+REV_10345,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10346,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10347,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,5,negative
+REV_10348,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10349,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10350,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10351,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10352,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10353,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10354,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10355,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,0,positive
+REV_10356,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,5,positive
+REV_10357,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10358,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10359,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10360,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,1,neutral
+REV_10361,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,5,negative
+REV_10362,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10363,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10364,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10365,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10366,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,2,negative
+REV_10367,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10368,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10369,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10370,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10371,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10372,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10373,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10374,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10375,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10376,Electronics,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,2,negative
+REV_10377,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10378,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,5,positive
+REV_10379,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,1,neutral
+REV_10380,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,14,negative
+REV_10381,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10382,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,14,negative
+REV_10383,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,42,positive
+REV_10384,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10385,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,2,negative
+REV_10386,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,5,positive
+REV_10387,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10388,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10389,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,2,negative
+REV_10390,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10391,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,2,positive
+REV_10392,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10393,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10394,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10395,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,5,neutral
+REV_10396,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10397,Electronics,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,1,neutral
+REV_10398,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10399,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10400,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10401,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10402,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10403,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,14,neutral
+REV_10404,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10405,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,2,positive
+REV_10406,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10407,Books,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10408,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,14,negative
+REV_10409,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10410,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,1,negative
+REV_10411,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10412,Personal Tech,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10413,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10414,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,5,neutral
+REV_10415,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,1,positive
+REV_10416,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10417,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10418,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10419,Electronics,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10420,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10421,Sports & Outdoors,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,No,42,negative
+REV_10422,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,No,42,negative
+REV_10423,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10424,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10425,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10426,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10427,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10428,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10429,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10430,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10431,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,5,positive
+REV_10432,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10433,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10434,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10435,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10436,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,14,negative
+REV_10437,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10438,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10439,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10440,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,1,neutral
+REV_10441,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,14,neutral
+REV_10442,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,42,positive
+REV_10443,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10444,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10445,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10446,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10447,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,5,positive
+REV_10448,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,1,neutral
+REV_10449,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10450,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,14,neutral
+REV_10451,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10452,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,14,positive
+REV_10453,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,5,positive
+REV_10454,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,5,negative
+REV_10455,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10456,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10457,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,2,positive
+REV_10458,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10459,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10460,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10461,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10462,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,5,positive
+REV_10463,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,0,neutral
+REV_10464,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10465,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,42,negative
+REV_10466,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,5,negative
+REV_10467,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,No,0,negative
+REV_10468,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10469,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10470,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10471,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,42,positive
+REV_10472,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10473,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,No,0,negative
+REV_10474,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,14,negative
+REV_10475,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,1,positive
+REV_10476,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10477,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10478,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10479,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10480,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10481,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,1,neutral
+REV_10482,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,2,negative
+REV_10483,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10484,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10485,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10486,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10487,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10488,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,14,negative
+REV_10489,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,42,positive
+REV_10490,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10491,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,1,positive
+REV_10492,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10493,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10494,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,0,neutral
+REV_10495,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10496,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10497,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,No,42,negative
+REV_10498,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10499,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10500,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10501,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10502,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10503,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,1,negative
+REV_10504,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10505,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10506,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10507,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,0,positive
+REV_10508,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10509,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10510,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,1,positive
+REV_10511,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10512,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,5,positive
+REV_10513,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10514,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10515,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10516,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10517,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,0,positive
+REV_10518,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10519,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10520,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10521,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10522,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10523,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10524,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,0,positive
+REV_10525,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10526,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,2,positive
+REV_10527,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10528,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10529,Books,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10530,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10531,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,5,negative
+REV_10532,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10533,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10534,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10535,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,2,negative
+REV_10536,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10537,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10538,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10539,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10540,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10541,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10542,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,5,negative
+REV_10543,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10544,Books,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,2,neutral
+REV_10545,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,5,positive
+REV_10546,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10547,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10548,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,2,positive
+REV_10549,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,2,neutral
+REV_10550,Electronics,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10551,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10552,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10553,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10554,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10555,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,No,1,negative
+REV_10556,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10557,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10558,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10559,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10560,Personal Tech,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,2,neutral
+REV_10561,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10562,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10563,Sports & Outdoors,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10564,Personal Tech,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10565,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10566,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,14,positive
+REV_10567,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,No,0,negative
+REV_10568,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10569,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10570,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10571,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10572,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10573,Electronics,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,14,negative
+REV_10574,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,2,positive
+REV_10575,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,0,neutral
+REV_10576,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10577,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,2,neutral
+REV_10578,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10579,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10580,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10581,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10582,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10583,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10584,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,2,negative
+REV_10585,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,14,neutral
+REV_10586,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10587,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,42,negative
+REV_10588,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,2,negative
+REV_10589,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10590,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10591,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10592,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10593,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,No,2,negative
+REV_10594,Electronics,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,42,negative
+REV_10595,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10596,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,2,negative
+REV_10597,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10598,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10599,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10600,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,0,positive
+REV_10601,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,No,1,negative
+REV_10602,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10603,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10604,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,5,negative
+REV_10605,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10606,Books,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10607,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10608,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,5,positive
+REV_10609,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10610,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10611,Electronics,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10612,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,No,14,negative
+REV_10613,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10614,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,14,positive
+REV_10615,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,1,positive
+REV_10616,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,1,positive
+REV_10617,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,0,positive
+REV_10618,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,42,negative
+REV_10619,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10620,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10621,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,42,neutral
+REV_10622,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10623,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10624,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10625,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10626,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,No,2,neutral
+REV_10627,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,5,negative
+REV_10628,Personal Tech,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10629,Personal Tech,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10630,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10631,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,1,positive
+REV_10632,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,42,negative
+REV_10633,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,0,positive
+REV_10634,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,42,positive
+REV_10635,Personal Tech,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,14,neutral
+REV_10636,Personal Tech,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,0,negative
+REV_10637,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10638,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,2,neutral
+REV_10639,Personal Tech,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,5,neutral
+REV_10640,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,1,neutral
+REV_10641,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10642,Books,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10643,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10644,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10645,Sports & Outdoors,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10646,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,2,negative
+REV_10647,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10648,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10649,Books,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10650,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10651,Electronics,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,No,0,negative
+REV_10652,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10653,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,5,positive
+REV_10654,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10655,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10656,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10657,Sports & Outdoors,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10658,Home & Kitchen,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10659,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10660,Home & Kitchen,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,2,negative
+REV_10661,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10662,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10663,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10664,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10665,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,2,neutral
+REV_10666,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10667,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10668,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,14,negative
+REV_10669,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10670,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10671,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10672,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10673,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10674,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10675,Personal Tech,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10676,Home & Kitchen,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,No,1,positive
+REV_10677,Electronics,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10678,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10679,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,1,positive
+REV_10680,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,5,neutral
+REV_10681,Books,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10682,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10683,Electronics,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,5,positive
+REV_10684,Home & Kitchen,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,0,positive
+REV_10685,Books,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10686,Electronics,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10687,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10688,Electronics,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10689,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10690,Sports & Outdoors,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,5,neutral
+REV_10691,Sports & Outdoors,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,1,negative
+REV_10692,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,5,neutral
+REV_10693,Sports & Outdoors,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,5,positive
+REV_10694,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10695,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,No,42,neutral
+REV_10696,Personal Tech,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10697,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,42,positive
+REV_10698,Books,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10699,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10700,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10701,Sports & Outdoors,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10702,Electronics,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10703,Home & Kitchen,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10704,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,0,positive
+REV_10705,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10706,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10707,Electronics,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10708,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,1,negative
+REV_10709,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,No,1,positive
+REV_10710,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10711,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10712,Home & Kitchen,Do not waste your money,"Flimsy materials, inconsistent connection, and overheating within 20 minutes.",1,Yes,42,negative
+REV_10713,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,2,negative
+REV_10714,Books,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,0,negative
+REV_10715,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,2,neutral
+REV_10716,Sports & Outdoors,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,2,positive
+REV_10717,Sports & Outdoors,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,42,positive
+REV_10718,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10719,Personal Tech,Great value for money,"Solid construction, clear display, and excellent battery life. Worth every penny.",4,Yes,2,positive
+REV_10720,Home & Kitchen,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10721,Personal Tech,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,0,positive
+REV_10722,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,1,negative
+REV_10723,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,14,positive
+REV_10724,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,14,positive
+REV_10725,Home & Kitchen,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,0,positive
+REV_10726,Personal Tech,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,0,neutral
+REV_10727,Sports & Outdoors,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,0,neutral
+REV_10728,Personal Tech,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,2,positive
+REV_10729,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,Yes,1,neutral
+REV_10730,Books,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,0,positive
+REV_10731,Electronics,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,2,neutral
+REV_10732,Personal Tech,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,0,neutral
+REV_10733,Personal Tech,Terrible build quality,Stopped working after just 2 weeks of minimal use. Customer support was unhelpful.,1,Yes,0,negative
+REV_10734,Sports & Outdoors,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10735,Home & Kitchen,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,1,positive
+REV_10736,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,Yes,2,positive
+REV_10737,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,No,0,positive
+REV_10738,Sports & Outdoors,Pleasantly surprised,Much better than the cheaper alternatives I tried. Very satisfied with this purchase.,4,No,0,positive
+REV_10739,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,1,positive
+REV_10740,Sports & Outdoors,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,No,5,negative
+REV_10741,Books,Extremely disappointed,Missing crucial accessories in the package and performance is painfully sluggish.,2,Yes,0,negative
+REV_10742,Electronics,Decent but has minor flaws,The overall product is okay. The manual is confusing and the finish could be more premium.,3,No,0,neutral
+REV_10743,Books,Average product for the price,Works fine for light tasks. Does the job but nothing extraordinary.,3,Yes,14,neutral
+REV_10744,Books,Outstanding performance!,This exceeded my expectations in every way. Build quality is exceptional and setup took seconds.,5,Yes,0,positive
+REV_10745,Books,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,Yes,2,positive
+REV_10746,Home & Kitchen,Does exactly what it says,Clean minimal design and functions without any hiccups. Would definitely buy again.,5,No,2,positive
+REV_10747,Electronics,Highly recommended for professionals,"Fast, reliable, and ergonomic. Using it daily for work and could not be happier.",5,Yes,1,positive
+REV_10748,Home & Kitchen,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,Yes,2,negative
+REV_10749,Home & Kitchen,Met basic expectations,Standard build. A bit heavier than advertised but operates reliably.,3,Yes,1,neutral
+REV_10750,Electronics,Regret this purchase,Fails to deliver on advertised battery life. Battery drained in under 2 hours.,1,No,2,negative

@@ -1,0 +1,651 @@
+student_id,gender,age,study_hours_per_week,attendance_rate,previous_exam_score,parent_education,internet_access,tutoring,sleep_hours,final_exam_score
+STD_1001,Female,15,21.3,95.1,73.9,High School,Yes,No,7.8,79.7
+STD_1002,Female,16,21.1,82.9,83.1,Bachelor's,Yes,Yes,6.7,97.0
+STD_1003,Male,19,25.3,96.1,66.2,Some College,Yes,No,7.9,78.3
+STD_1004,Female,18,21.3,100.0,79.4,High School,Yes,No,7.6,84.4
+STD_1005,Male,16,14.8,87.4,89.0,Bachelor's,Yes,Yes,5.9,88.1
+STD_1006,Male,19,10.7,92.7,58.6,High School,Yes,No,8.2,60.8
+STD_1007,Female,16,16.5,100.0,71.7,Associate Degree,Yes,Yes,6.8,81.9
+STD_1008,Female,19,21.1,85.1,70.0,Master's,Yes,Yes,7.9,89.8
+STD_1009,Male,15,15.2,87.5,76.5,High School,Yes,Yes,6.1,82.1
+STD_1010,Female,19,19.0,85.2,47.5,Associate Degree,Yes,No,8.5,68.9
+STD_1011,Female,16,11.2,78.4,65.9,High School,Yes,Yes,7.3,72.3
+STD_1012,Male,18,13.1,73.8,82.7,Bachelor's,Yes,Yes,8.8,81.9
+STD_1013,Female,15,19.8,90.5,75.5,Master's,Yes,Yes,6.2,93.0
+STD_1014,Female,18,11.6,89.5,75.6,Associate Degree,Yes,Yes,6.4,82.5
+STD_1015,Male,15,18.7,87.3,60.4,High School,Yes,No,8.2,69.4
+STD_1016,Female,17,18.8,92.4,55.3,Associate Degree,Yes,No,8.7,71.3
+STD_1017,Female,17,11.8,94.0,76.6,High School,Yes,No,6.4,79.6
+STD_1018,Female,15,14.6,80.6,79.5,Bachelor's,No,Yes,8.0,83.9
+STD_1019,Female,18,2.4,85.0,79.9,High School,Yes,No,6.8,69.7
+STD_1020,Male,19,16.2,94.8,57.1,Bachelor's,Yes,No,6.7,71.2
+STD_1021,Female,19,27.5,100.0,77.5,High School,Yes,Yes,7.9,95.9
+STD_1022,Male,18,22.6,70.2,62.1,Some College,Yes,No,6.5,74.5
+STD_1023,Male,18,17.2,81.3,79.3,High School,Yes,Yes,7.4,85.4
+STD_1024,Male,16,21.7,94.2,63.9,Master's,Yes,Yes,7.2,95.4
+STD_1025,Female,18,3.2,92.3,86.3,High School,Yes,Yes,10.5,82.7
+STD_1026,Male,19,17.3,97.3,99.0,Associate Degree,Yes,No,7.5,91.8
+STD_1027,Male,17,14.0,77.9,85.6,High School,Yes,No,7.1,80.6
+STD_1028,Female,19,11.8,80.5,74.4,Some College,Yes,No,7.2,77.8
+STD_1029,Female,18,21.8,90.7,57.0,Bachelor's,Yes,No,6.6,71.6
+STD_1030,Male,18,15.2,97.8,84.7,Some College,Yes,No,6.4,88.2
+STD_1031,Female,18,26.8,71.5,77.8,Some College,Yes,No,5.9,82.0
+STD_1032,Female,19,23.3,100.0,80.9,Bachelor's,Yes,No,6.9,94.1
+STD_1033,Male,16,15.5,96.9,85.7,Bachelor's,Yes,Yes,7.5,90.3
+STD_1034,Male,19,19.8,79.1,81.3,Master's,Yes,No,7.1,90.0
+STD_1035,Male,18,21.3,70.5,62.5,Bachelor's,Yes,No,6.7,73.8
+STD_1036,Female,17,9.6,91.5,60.7,Master's,Yes,No,6.7,70.4
+STD_1037,Female,17,19.8,84.8,74.9,Bachelor's,Yes,Yes,7.2,89.0
+STD_1038,Male,15,24.9,92.4,72.8,Bachelor's,Yes,No,6.9,91.0
+STD_1039,Female,16,12.0,76.0,79.4,High School,Yes,Yes,7.9,80.4
+STD_1040,Female,18,12.9,77.8,86.9,Master's,Yes,No,7.1,82.2
+STD_1041,Male,18,17.0,81.3,99.0,Associate Degree,Yes,Yes,5.9,93.0
+STD_1042,Male,18,27.1,83.7,62.3,Bachelor's,Yes,No,7.4,82.7
+STD_1043,Male,19,25.1,70.1,77.0,Bachelor's,Yes,No,8.5,83.7
+STD_1044,Female,15,14.8,87.9,87.8,High School,Yes,No,8.4,84.3
+STD_1045,Male,18,12.1,60.4,73.4,High School,Yes,Yes,4.8,68.4
+STD_1046,Male,17,26.3,100.0,69.9,Associate Degree,Yes,No,7.1,84.6
+STD_1047,Male,16,24.2,80.1,85.8,Some College,Yes,No,7.2,87.6
+STD_1048,Male,15,21.9,89.1,51.6,Associate Degree,Yes,No,6.0,77.6
+STD_1049,Male,18,22.5,67.2,85.8,Associate Degree,Yes,No,8.0,83.4
+STD_1050,Male,19,20.3,71.7,64.4,Bachelor's,Yes,No,7.1,76.9
+STD_1051,Male,17,17.4,75.1,67.9,Associate Degree,No,Yes,7.0,84.7
+STD_1052,Male,16,19.7,92.2,85.1,Some College,Yes,Yes,7.6,90.7
+STD_1053,Female,15,24.3,84.2,66.5,Associate Degree,Yes,No,8.4,89.8
+STD_1054,Male,15,17.6,91.6,83.1,Bachelor's,Yes,Yes,6.0,90.8
+STD_1055,Male,19,14.6,79.2,70.5,Master's,Yes,No,8.0,76.8
+STD_1056,Male,15,14.0,74.6,85.7,Master's,Yes,Yes,6.1,81.1
+STD_1057,Male,17,10.4,66.4,80.4,Associate Degree,No,No,7.9,64.5
+STD_1058,Female,15,21.9,71.3,64.3,Some College,Yes,No,8.0,70.9
+STD_1059,Female,15,19.7,79.4,82.5,High School,Yes,Yes,7.2,85.2
+STD_1060,Female,19,12.3,96.4,60.5,Associate Degree,Yes,No,6.0,74.0
+STD_1061,Male,18,18.1,91.7,98.0,Master's,Yes,No,7.1,95.1
+STD_1062,Male,15,15.2,92.1,66.5,Associate Degree,Yes,No,7.6,76.2
+STD_1063,Male,18,14.4,71.6,65.6,Master's,Yes,Yes,7.9,81.1
+STD_1064,Female,19,15.1,91.0,89.6,Bachelor's,No,Yes,7.3,89.9
+STD_1065,Male,17,24.6,70.6,76.9,Bachelor's,Yes,No,5.5,80.5
+STD_1066,Male,19,17.6,73.1,74.1,Associate Degree,Yes,Yes,7.9,75.7
+STD_1067,Male,16,9.8,75.5,77.4,Bachelor's,Yes,No,8.8,75.3
+STD_1068,Male,17,8.9,98.1,81.4,Master's,Yes,No,4.8,76.7
+STD_1069,Female,17,19.8,76.8,64.1,High School,Yes,Yes,7.2,78.6
+STD_1070,Male,17,17.1,81.9,72.2,Bachelor's,No,No,6.1,78.7
+STD_1071,Female,18,27.8,72.5,72.7,Bachelor's,No,Yes,6.2,87.6
+STD_1072,Female,18,19.8,97.7,89.6,High School,Yes,No,7.7,94.3
+STD_1073,Female,17,24.2,93.9,45.8,High School,Yes,No,9.1,77.8
+STD_1074,Female,18,18.1,74.4,61.9,High School,Yes,No,8.2,76.9
+STD_1075,Female,19,16.5,92.4,69.8,Some College,Yes,No,9.4,76.4
+STD_1076,Male,16,27.3,79.9,88.8,Some College,Yes,No,5.9,97.3
+STD_1077,Female,19,23.1,92.2,48.0,Some College,Yes,Yes,8.6,76.7
+STD_1078,Male,15,16.7,98.3,61.5,Bachelor's,Yes,No,7.9,70.9
+STD_1079,Male,15,21.7,77.5,79.6,High School,No,Yes,7.4,82.7
+STD_1080,Female,17,16.1,78.4,75.7,Associate Degree,No,No,8.4,76.4
+STD_1081,Male,15,22.5,96.7,93.1,Associate Degree,Yes,No,6.3,100.0
+STD_1082,Male,16,23.2,82.3,90.4,Master's,Yes,No,7.6,96.0
+STD_1083,Male,18,24.6,100.0,71.3,Master's,Yes,No,6.9,91.6
+STD_1084,Male,17,13.0,81.9,68.8,Associate Degree,Yes,No,8.5,72.1
+STD_1085,Female,15,8.6,82.3,75.5,Bachelor's,Yes,No,8.4,74.4
+STD_1086,Male,16,11.3,100.0,56.9,Bachelor's,Yes,No,8.1,71.9
+STD_1087,Female,16,24.2,77.9,58.3,Master's,Yes,Yes,5.8,85.7
+STD_1088,Male,18,16.4,64.1,88.0,Some College,Yes,No,7.2,81.7
+STD_1089,Male,16,18.3,77.0,84.9,Associate Degree,Yes,No,7.9,84.0
+STD_1090,Male,19,21.8,74.4,74.5,Master's,Yes,Yes,7.0,88.9
+STD_1091,Female,15,12.0,85.1,66.7,Associate Degree,Yes,No,6.6,72.1
+STD_1092,Female,17,14.2,98.9,58.1,Bachelor's,Yes,No,6.9,76.1
+STD_1093,Male,17,20.5,75.9,91.8,Associate Degree,No,No,7.4,84.0
+STD_1094,Male,19,20.1,99.4,81.2,Associate Degree,Yes,No,7.2,88.5
+STD_1095,Male,16,20.3,78.4,79.0,Associate Degree,Yes,No,7.2,82.7
+STD_1096,Male,15,29.1,72.8,98.0,Master's,Yes,No,7.1,100.0
+STD_1097,Male,16,22.4,90.2,60.6,Bachelor's,Yes,Yes,6.4,86.7
+STD_1098,Female,19,13.5,91.9,67.4,Master's,Yes,No,9.0,82.0
+STD_1099,Male,16,24.5,97.3,71.6,Master's,Yes,Yes,6.7,97.4
+STD_1100,Male,17,15.0,91.6,70.4,Bachelor's,Yes,Yes,6.2,82.2
+STD_1101,Female,16,14.3,75.8,70.2,Some College,No,No,8.6,69.3
+STD_1102,Male,17,15.7,99.3,50.9,High School,Yes,No,8.1,68.8
+STD_1103,Male,15,18.9,85.3,62.5,Bachelor's,Yes,Yes,5.8,77.7
+STD_1104,Female,16,21.2,83.2,66.1,High School,Yes,No,6.8,74.5
+STD_1105,Male,17,10.6,89.5,60.7,Bachelor's,Yes,Yes,8.2,79.1
+STD_1106,Female,16,27.0,78.7,88.9,Master's,Yes,No,6.9,90.3
+STD_1107,Female,19,23.2,86.8,85.1,Some College,Yes,No,8.6,88.1
+STD_1108,Male,17,21.8,100.0,73.7,Associate Degree,Yes,No,8.9,87.1
+STD_1109,Female,18,6.1,75.3,69.3,Master's,Yes,Yes,7.0,71.2
+STD_1110,Male,19,16.4,85.2,80.6,High School,Yes,No,7.5,87.6
+STD_1111,Female,15,16.7,70.7,48.4,Master's,Yes,No,7.7,65.2
+STD_1112,Female,18,15.8,100.0,69.0,Associate Degree,Yes,Yes,8.0,84.4
+STD_1113,Male,16,23.0,94.6,94.0,High School,Yes,Yes,7.3,95.7
+STD_1114,Female,18,20.9,73.8,88.8,Some College,Yes,No,7.6,82.7
+STD_1115,Female,18,21.5,79.4,63.6,Associate Degree,Yes,No,8.6,83.9
+STD_1116,Male,16,15.7,87.4,62.1,Master's,Yes,No,6.2,72.9
+STD_1117,Male,19,23.0,62.7,71.8,Associate Degree,Yes,Yes,6.9,81.1
+STD_1118,Female,19,22.6,93.6,72.2,Master's,Yes,Yes,7.0,96.0
+STD_1119,Male,15,18.1,66.2,72.7,Master's,Yes,Yes,6.5,79.5
+STD_1120,Female,16,6.0,88.7,68.9,Bachelor's,No,No,6.0,67.1
+STD_1121,Female,19,23.6,87.6,62.1,High School,Yes,Yes,6.3,84.2
+STD_1122,Male,18,21.1,86.5,55.7,High School,Yes,Yes,8.6,76.1
+STD_1123,Male,18,10.2,77.0,66.4,High School,No,No,8.3,65.3
+STD_1124,Female,15,16.0,78.2,69.6,Bachelor's,No,No,7.5,69.4
+STD_1125,Female,19,18.9,83.6,63.9,High School,Yes,No,5.5,76.2
+STD_1126,Female,18,12.2,97.5,84.6,Associate Degree,Yes,No,8.9,85.5
+STD_1127,Female,18,24.8,92.6,74.1,Bachelor's,Yes,Yes,4.6,97.4
+STD_1128,Male,15,16.1,89.0,83.5,Bachelor's,No,Yes,7.1,88.2
+STD_1129,Male,19,29.1,100.0,61.3,Associate Degree,Yes,No,7.5,84.4
+STD_1130,Female,15,12.7,95.6,77.0,Associate Degree,Yes,Yes,7.5,83.6
+STD_1131,Female,17,12.6,85.0,71.3,Bachelor's,Yes,No,6.9,79.5
+STD_1132,Female,17,32.8,78.3,53.9,Bachelor's,Yes,Yes,8.5,86.8
+STD_1133,Female,16,10.3,98.0,85.3,Associate Degree,Yes,No,7.3,85.0
+STD_1134,Female,17,15.2,68.8,77.7,Associate Degree,No,No,5.2,73.0
+STD_1135,Female,19,16.5,93.6,74.2,Some College,Yes,Yes,8.9,89.6
+STD_1136,Female,18,27.7,85.7,61.2,Bachelor's,Yes,No,7.9,79.2
+STD_1137,Male,19,18.3,77.3,94.0,Bachelor's,Yes,Yes,7.9,87.6
+STD_1138,Male,15,21.7,98.9,61.4,Bachelor's,Yes,No,6.5,80.1
+STD_1139,Male,19,18.6,90.9,54.1,Some College,Yes,Yes,7.2,73.9
+STD_1140,Male,15,29.5,71.6,93.1,Bachelor's,Yes,Yes,8.4,98.4
+STD_1141,Female,19,2.0,83.4,81.6,High School,Yes,No,7.7,70.3
+STD_1142,Female,16,17.7,71.3,70.2,High School,Yes,No,7.8,70.3
+STD_1143,Male,16,22.5,69.0,74.7,Associate Degree,Yes,No,6.1,87.8
+STD_1144,Female,15,13.8,92.1,65.0,Some College,Yes,No,7.5,76.9
+STD_1145,Female,17,10.3,77.2,85.9,Some College,Yes,No,7.2,83.2
+STD_1146,Male,17,19.1,99.2,72.4,Master's,Yes,No,6.7,88.8
+STD_1147,Female,17,13.7,98.9,76.3,Bachelor's,Yes,Yes,7.0,88.6
+STD_1148,Female,15,14.7,93.5,61.5,Associate Degree,Yes,No,8.3,74.2
+STD_1149,Male,19,20.6,86.2,80.9,Some College,Yes,No,7.7,81.7
+STD_1150,Female,15,13.0,83.6,84.6,Bachelor's,Yes,No,8.4,86.9
+STD_1151,Female,19,19.9,76.2,56.4,Bachelor's,Yes,Yes,6.8,76.3
+STD_1152,Male,19,29.2,79.0,93.2,Master's,Yes,No,5.6,97.6
+STD_1153,Female,17,31.2,71.5,61.4,High School,Yes,No,6.8,74.0
+STD_1154,Male,15,19.7,89.9,74.0,Some College,Yes,No,5.4,86.9
+STD_1155,Male,18,15.5,62.8,74.1,Some College,Yes,No,6.1,73.1
+STD_1156,Male,17,22.6,94.9,46.9,Associate Degree,Yes,No,5.1,80.5
+STD_1157,Female,15,16.0,80.1,79.1,Associate Degree,Yes,No,8.6,81.9
+STD_1158,Male,15,10.0,95.1,63.4,Some College,Yes,No,5.5,73.0
+STD_1159,Male,18,25.6,74.5,67.3,Master's,Yes,Yes,7.3,84.9
+STD_1160,Male,19,22.4,87.7,74.1,Associate Degree,No,Yes,7.4,80.0
+STD_1161,Male,19,22.7,72.4,92.8,Master's,No,Yes,9.1,94.2
+STD_1162,Male,19,14.1,76.8,59.8,High School,Yes,No,8.1,58.3
+STD_1163,Female,15,25.6,98.5,60.2,Some College,Yes,Yes,6.9,87.3
+STD_1164,Male,16,27.2,78.2,66.9,High School,Yes,Yes,9.6,90.0
+STD_1165,Female,17,21.3,95.9,86.4,Associate Degree,Yes,Yes,5.9,97.6
+STD_1166,Male,18,17.9,86.9,68.9,Some College,Yes,No,8.1,74.7
+STD_1167,Female,17,20.5,85.7,81.5,High School,Yes,Yes,6.8,92.6
+STD_1168,Male,17,22.6,76.7,69.9,Master's,Yes,No,5.7,88.7
+STD_1169,Female,17,23.5,95.2,76.8,Associate Degree,Yes,No,7.1,89.7
+STD_1170,Male,19,19.9,80.2,78.9,Master's,Yes,No,8.5,90.5
+STD_1171,Female,18,18.2,100.0,74.8,Bachelor's,Yes,Yes,6.0,96.3
+STD_1172,Female,19,16.1,81.9,65.2,Master's,Yes,Yes,6.3,81.7
+STD_1173,Female,15,18.7,78.1,66.5,Bachelor's,Yes,No,7.1,75.8
+STD_1174,Male,15,9.1,89.4,71.3,Associate Degree,No,Yes,6.7,74.8
+STD_1175,Female,16,14.6,79.2,75.7,Some College,Yes,No,7.1,74.5
+STD_1176,Female,15,14.1,93.7,61.1,Some College,Yes,Yes,7.2,74.6
+STD_1177,Female,18,19.4,99.7,64.8,Some College,Yes,Yes,6.5,82.5
+STD_1178,Male,19,30.0,87.7,45.8,Associate Degree,Yes,Yes,8.4,80.2
+STD_1179,Male,19,9.6,100.0,64.7,Master's,Yes,Yes,7.1,78.8
+STD_1180,Male,17,19.9,86.4,82.7,Associate Degree,Yes,Yes,6.4,89.6
+STD_1181,Female,17,21.0,88.8,73.0,Master's,Yes,No,6.3,94.9
+STD_1182,Female,17,20.0,73.9,65.6,Bachelor's,Yes,No,8.9,81.3
+STD_1183,Male,19,15.8,93.0,61.6,Master's,Yes,Yes,6.8,82.0
+STD_1184,Female,19,23.3,91.0,78.4,Bachelor's,Yes,No,7.3,89.4
+STD_1185,Male,16,26.5,86.7,67.6,Some College,Yes,Yes,6.9,86.9
+STD_1186,Female,16,23.9,77.0,75.2,Associate Degree,Yes,No,7.4,83.4
+STD_1187,Male,18,20.6,84.5,73.1,Some College,Yes,Yes,7.3,78.4
+STD_1188,Male,16,23.1,81.9,56.5,Some College,Yes,No,7.5,81.6
+STD_1189,Male,17,15.4,95.4,78.3,High School,No,Yes,7.6,80.8
+STD_1190,Male,15,16.0,75.0,66.6,Bachelor's,Yes,No,7.8,75.3
+STD_1191,Female,15,15.9,100.0,61.4,Associate Degree,Yes,Yes,8.6,81.0
+STD_1192,Male,15,19.0,90.9,73.3,Master's,No,Yes,6.5,89.4
+STD_1193,Female,15,19.8,85.8,56.0,Bachelor's,Yes,No,7.0,71.1
+STD_1194,Male,15,9.7,68.3,90.3,Bachelor's,Yes,No,6.1,76.6
+STD_1195,Male,17,20.5,91.7,52.8,Associate Degree,Yes,No,7.1,78.0
+STD_1196,Male,19,14.4,93.7,80.3,Associate Degree,No,No,7.9,80.5
+STD_1197,Female,18,19.0,100.0,76.8,Some College,No,Yes,7.5,91.6
+STD_1198,Female,17,16.4,67.9,53.3,Master's,Yes,Yes,9.6,66.4
+STD_1199,Male,17,10.8,94.1,84.3,Master's,Yes,Yes,6.6,91.6
+STD_1200,Male,15,18.2,67.5,47.3,Some College,Yes,Yes,7.9,65.7
+STD_1201,Male,15,21.7,87.4,77.0,Master's,Yes,Yes,6.0,96.7
+STD_1202,Male,19,24.7,73.1,78.8,Master's,Yes,No,6.7,89.2
+STD_1203,Female,19,14.9,100.0,87.0,Associate Degree,Yes,No,6.0,87.4
+STD_1204,Female,19,9.0,82.9,61.2,Some College,Yes,No,7.6,66.7
+STD_1205,Female,15,21.1,100.0,77.5,High School,Yes,No,8.2,90.1
+STD_1206,Female,17,23.1,90.6,72.8,High School,Yes,No,5.5,85.9
+STD_1207,Male,15,21.0,85.0,85.7,Master's,Yes,Yes,6.9,94.3
+STD_1208,Male,15,19.0,94.3,77.9,High School,Yes,No,5.9,84.3
+STD_1209,Male,18,14.8,85.0,59.7,Master's,Yes,No,7.4,75.0
+STD_1210,Female,17,22.2,71.8,66.3,Master's,Yes,Yes,7.0,81.8
+STD_1211,Female,16,22.5,82.7,75.6,Master's,No,No,7.2,88.7
+STD_1212,Female,19,21.6,71.1,84.2,Associate Degree,Yes,No,7.1,81.4
+STD_1213,Female,19,12.0,66.5,81.6,High School,Yes,No,8.6,72.3
+STD_1214,Female,19,19.2,76.1,91.6,Associate Degree,Yes,No,6.0,91.4
+STD_1215,Female,18,9.9,94.8,44.8,Associate Degree,No,Yes,6.5,60.6
+STD_1216,Male,18,17.4,75.8,74.6,Associate Degree,Yes,No,6.8,82.8
+STD_1217,Female,19,13.2,94.3,70.4,Master's,Yes,No,6.3,82.6
+STD_1218,Female,18,29.4,85.4,64.9,Bachelor's,No,No,7.4,86.8
+STD_1219,Female,15,18.3,73.6,70.9,Some College,Yes,No,5.4,69.4
+STD_1220,Male,18,19.1,83.6,89.0,Some College,Yes,No,7.2,86.4
+STD_1221,Female,18,18.4,69.3,43.8,Bachelor's,Yes,Yes,7.5,61.2
+STD_1222,Female,17,20.2,86.8,68.8,Associate Degree,Yes,No,6.9,77.8
+STD_1223,Male,19,10.8,93.5,83.3,Associate Degree,Yes,No,8.1,78.6
+STD_1224,Female,15,13.1,79.8,85.8,Some College,Yes,No,7.1,75.4
+STD_1225,Male,15,22.1,98.3,76.5,Master's,No,Yes,6.0,99.5
+STD_1226,Female,15,24.0,94.8,77.6,High School,Yes,No,6.5,89.4
+STD_1227,Female,19,27.6,94.8,74.6,Associate Degree,Yes,Yes,7.1,96.0
+STD_1228,Male,17,25.6,90.7,70.4,Master's,Yes,No,6.5,92.7
+STD_1229,Female,17,16.6,88.0,65.2,Bachelor's,Yes,Yes,7.1,84.8
+STD_1230,Female,18,21.2,80.0,82.8,High School,No,No,8.9,79.8
+STD_1231,Male,18,4.2,86.3,77.9,Master's,Yes,No,7.4,72.2
+STD_1232,Female,18,16.7,88.1,75.1,Master's,Yes,No,8.5,80.9
+STD_1233,Male,17,15.7,84.0,95.2,Some College,Yes,Yes,8.1,85.0
+STD_1234,Female,19,18.5,85.7,62.1,Some College,Yes,No,7.6,73.0
+STD_1235,Male,17,10.7,89.1,80.9,Master's,Yes,Yes,8.4,82.0
+STD_1236,Female,16,15.9,68.4,58.8,Associate Degree,Yes,No,6.0,64.4
+STD_1237,Male,19,18.4,77.6,52.0,High School,Yes,No,7.1,69.3
+STD_1238,Female,15,15.1,100.0,66.8,Associate Degree,Yes,No,7.3,75.6
+STD_1239,Male,18,15.4,100.0,74.0,Bachelor's,Yes,No,7.5,86.1
+STD_1240,Male,18,20.1,84.4,64.9,High School,Yes,Yes,6.2,79.5
+STD_1241,Male,18,9.2,98.7,85.5,Some College,Yes,No,7.0,83.7
+STD_1242,Male,16,13.8,67.0,77.3,Master's,Yes,No,8.0,72.5
+STD_1243,Male,17,22.1,82.4,85.5,Some College,Yes,Yes,6.6,90.6
+STD_1244,Male,18,22.5,72.1,49.4,Bachelor's,Yes,Yes,5.1,67.1
+STD_1245,Female,18,27.2,87.0,71.4,Associate Degree,Yes,Yes,6.6,92.8
+STD_1246,Female,17,19.4,90.5,76.6,High School,Yes,No,7.7,77.8
+STD_1247,Female,19,21.4,100.0,83.2,Some College,No,No,7.8,89.9
+STD_1248,Male,16,19.5,80.3,90.9,Master's,Yes,No,6.7,91.6
+STD_1249,Male,16,28.4,79.9,68.1,Master's,Yes,No,8.7,85.5
+STD_1250,Male,17,9.6,76.1,52.7,Bachelor's,Yes,No,7.7,60.7
+STD_1251,Female,15,23.6,84.7,51.5,Bachelor's,Yes,Yes,7.4,76.8
+STD_1252,Female,16,18.4,86.6,75.1,Master's,Yes,No,7.6,84.4
+STD_1253,Female,16,24.7,86.2,73.7,Associate Degree,Yes,No,6.7,89.6
+STD_1254,Female,19,18.8,89.4,66.7,Bachelor's,No,No,6.4,79.3
+STD_1255,Female,15,10.6,76.2,74.2,Associate Degree,No,No,9.2,72.5
+STD_1256,Female,19,19.5,94.6,43.6,Bachelor's,Yes,Yes,8.1,78.8
+STD_1257,Female,18,8.4,78.9,60.2,Some College,No,Yes,6.8,65.6
+STD_1258,Female,18,14.4,87.3,69.7,Master's,Yes,Yes,8.2,80.0
+STD_1259,Female,19,22.5,81.3,80.4,Master's,No,Yes,7.0,88.2
+STD_1260,Female,17,12.8,89.8,83.4,Associate Degree,Yes,Yes,5.9,83.7
+STD_1261,Female,17,17.5,75.2,59.2,Associate Degree,Yes,No,7.7,75.7
+STD_1262,Male,16,12.3,90.6,58.8,High School,Yes,No,9.2,74.2
+STD_1263,Female,18,18.3,99.4,74.2,Some College,Yes,No,6.2,82.6
+STD_1264,Female,15,15.6,88.8,91.7,High School,Yes,Yes,6.7,95.4
+STD_1265,Female,18,18.7,100.0,68.0,Bachelor's,Yes,Yes,6.5,86.5
+STD_1266,Female,16,11.3,86.5,84.6,Master's,Yes,Yes,8.4,95.1
+STD_1267,Male,16,21.2,63.2,75.1,Master's,Yes,No,7.0,76.9
+STD_1268,Male,16,13.5,71.5,64.3,Some College,Yes,Yes,8.6,68.4
+STD_1269,Female,18,17.0,92.5,62.1,Master's,Yes,No,7.3,77.6
+STD_1270,Male,19,12.3,81.6,69.9,High School,Yes,No,7.6,69.1
+STD_1271,Female,18,21.2,76.6,55.3,Some College,Yes,No,5.9,69.2
+STD_1272,Male,19,19.4,86.9,61.8,Some College,Yes,No,5.9,79.5
+STD_1273,Female,15,17.9,89.7,54.9,Bachelor's,Yes,No,7.5,75.9
+STD_1274,Female,15,16.2,88.6,58.9,Master's,Yes,No,6.9,79.0
+STD_1275,Male,15,9.5,81.0,64.4,High School,No,Yes,7.1,63.2
+STD_1276,Male,17,16.3,88.2,77.3,Some College,Yes,No,6.7,76.1
+STD_1277,Female,16,16.7,88.9,50.6,Associate Degree,Yes,No,7.8,68.8
+STD_1278,Female,16,26.3,85.5,63.1,Bachelor's,Yes,No,5.8,82.6
+STD_1279,Male,19,21.4,86.8,91.0,Associate Degree,No,No,8.2,88.3
+STD_1280,Female,19,19.3,62.9,77.9,High School,Yes,No,5.4,71.1
+STD_1281,Female,17,31.2,98.7,53.1,Master's,Yes,No,7.0,88.3
+STD_1282,Female,19,20.1,93.1,81.2,High School,Yes,No,4.4,89.7
+STD_1283,Female,17,13.7,88.4,76.8,Some College,Yes,No,7.7,75.3
+STD_1284,Male,17,5.5,81.1,49.2,Associate Degree,Yes,No,5.8,53.7
+STD_1285,Male,19,15.8,64.6,73.5,Bachelor's,No,No,8.4,68.3
+STD_1286,Female,19,14.1,65.1,65.0,High School,Yes,No,7.1,68.1
+STD_1287,Female,19,22.5,98.4,73.1,Bachelor's,Yes,No,6.0,86.7
+STD_1288,Male,18,19.1,90.0,85.4,Master's,Yes,No,7.5,87.1
+STD_1289,Male,18,32.1,81.9,75.6,Some College,Yes,Yes,6.4,94.8
+STD_1290,Male,16,8.0,89.7,73.4,Associate Degree,No,Yes,6.2,70.1
+STD_1291,Male,17,21.7,84.6,64.2,Master's,Yes,Yes,8.0,85.8
+STD_1292,Female,15,20.3,78.8,68.9,Bachelor's,Yes,No,8.1,80.0
+STD_1293,Male,15,20.4,85.0,44.6,Associate Degree,Yes,No,7.0,73.6
+STD_1294,Male,19,11.0,95.0,72.5,Associate Degree,Yes,Yes,8.0,86.4
+STD_1295,Male,15,21.2,89.6,55.7,High School,Yes,No,7.3,72.2
+STD_1296,Male,17,13.2,87.9,66.3,Associate Degree,Yes,No,5.9,76.8
+STD_1297,Male,16,24.0,72.5,45.1,High School,Yes,No,5.7,69.1
+STD_1298,Male,18,17.7,99.3,75.9,Master's,Yes,Yes,5.6,95.7
+STD_1299,Male,15,11.9,83.9,55.8,Some College,Yes,Yes,5.8,69.6
+STD_1300,Male,16,21.1,67.3,82.4,Master's,Yes,Yes,5.2,93.6
+STD_1301,Female,15,20.7,77.1,99.0,Associate Degree,Yes,Yes,8.6,88.7
+STD_1302,Male,15,16.2,78.8,69.6,Master's,Yes,No,5.6,77.2
+STD_1303,Female,18,20.5,68.9,62.7,Bachelor's,Yes,No,5.7,79.9
+STD_1304,Male,18,13.8,100.0,72.8,Bachelor's,Yes,No,8.6,81.7
+STD_1305,Female,17,27.1,72.7,87.6,Some College,Yes,Yes,7.6,92.0
+STD_1306,Male,18,6.4,90.7,49.5,Master's,Yes,No,8.7,64.7
+STD_1307,Male,15,21.2,100.0,54.8,High School,No,No,7.7,76.1
+STD_1308,Female,15,7.3,92.1,77.1,High School,Yes,No,7.7,79.8
+STD_1309,Female,17,11.8,91.3,68.8,Some College,Yes,No,8.2,68.0
+STD_1310,Female,15,14.4,100.0,63.0,Bachelor's,Yes,No,7.8,70.6
+STD_1311,Female,19,11.4,93.4,55.2,High School,Yes,Yes,7.0,67.2
+STD_1312,Male,18,7.9,79.5,54.5,Bachelor's,No,Yes,8.2,67.9
+STD_1313,Male,18,8.4,72.5,68.0,Bachelor's,Yes,No,6.2,66.6
+STD_1314,Female,16,26.1,83.8,84.3,Associate Degree,Yes,No,7.6,91.6
+STD_1315,Male,16,28.0,99.7,74.8,Master's,Yes,No,8.5,100.0
+STD_1316,Male,16,13.4,97.7,81.7,Bachelor's,Yes,No,7.1,86.3
+STD_1317,Male,16,12.6,88.8,71.4,Bachelor's,Yes,Yes,5.6,78.6
+STD_1318,Male,18,20.1,93.0,55.1,Master's,Yes,Yes,7.8,92.5
+STD_1319,Female,18,14.4,83.2,73.3,Some College,Yes,No,7.4,81.1
+STD_1320,Female,16,2.0,86.1,57.4,Bachelor's,Yes,No,7.9,58.3
+STD_1321,Female,16,25.4,76.7,80.1,Some College,Yes,No,7.3,84.0
+STD_1322,Female,17,18.3,89.9,83.5,Master's,Yes,No,6.8,92.0
+STD_1323,Male,16,12.5,81.4,78.1,Some College,Yes,Yes,7.6,77.6
+STD_1324,Male,17,10.6,74.3,66.9,Master's,Yes,No,7.4,72.1
+STD_1325,Male,19,26.6,82.9,71.5,Master's,No,No,7.5,86.0
+STD_1326,Female,19,19.2,91.7,88.2,Bachelor's,Yes,No,6.9,95.2
+STD_1327,Male,15,14.6,93.3,56.9,Some College,Yes,No,6.2,72.2
+STD_1328,Female,18,20.0,75.6,88.4,Some College,Yes,No,7.3,81.8
+STD_1329,Male,16,24.5,100.0,68.6,Some College,No,Yes,6.8,89.6
+STD_1330,Male,19,17.1,94.7,60.2,Some College,Yes,Yes,6.4,76.6
+STD_1331,Male,15,13.4,100.0,78.7,High School,Yes,No,6.7,76.3
+STD_1332,Male,15,18.5,78.9,51.7,Bachelor's,Yes,Yes,6.3,72.2
+STD_1333,Female,18,17.6,85.5,56.5,Master's,Yes,Yes,6.3,80.9
+STD_1334,Female,16,20.8,80.6,71.4,Some College,No,Yes,7.2,77.5
+STD_1335,Female,17,25.0,77.7,68.3,Master's,Yes,No,7.2,93.0
+STD_1336,Female,16,17.1,69.5,89.2,Master's,Yes,No,8.9,85.3
+STD_1337,Male,18,12.5,88.5,89.6,Master's,Yes,Yes,6.3,94.9
+STD_1338,Female,18,20.9,87.2,59.0,Master's,Yes,Yes,8.1,82.7
+STD_1339,Female,19,23.9,78.0,71.9,Master's,Yes,Yes,6.4,89.2
+STD_1340,Male,15,10.4,97.3,75.2,Associate Degree,Yes,No,9.6,73.5
+STD_1341,Male,19,14.3,99.6,55.2,Bachelor's,Yes,Yes,7.1,73.2
+STD_1342,Male,16,17.9,93.2,47.3,Master's,Yes,No,6.9,74.4
+STD_1343,Male,19,16.1,75.9,68.4,Associate Degree,Yes,No,6.1,71.4
+STD_1344,Female,15,10.6,83.3,70.3,Bachelor's,Yes,Yes,6.8,79.6
+STD_1345,Female,16,14.6,92.9,75.7,Bachelor's,Yes,No,8.0,80.7
+STD_1346,Male,16,23.3,88.2,74.9,Bachelor's,Yes,Yes,7.6,95.0
+STD_1347,Male,16,16.8,86.8,80.2,Master's,Yes,No,8.1,91.8
+STD_1348,Male,19,20.5,76.4,50.9,Associate Degree,Yes,No,8.8,67.8
+STD_1349,Female,17,20.5,80.7,64.4,Bachelor's,Yes,Yes,6.4,79.3
+STD_1350,Female,18,23.9,82.3,99.0,Bachelor's,Yes,Yes,7.4,99.4
+STD_1351,Male,17,31.0,100.0,83.5,High School,Yes,Yes,7.0,100.0
+STD_1352,Male,15,14.7,77.7,92.8,High School,Yes,Yes,6.1,80.2
+STD_1353,Female,19,5.3,81.4,80.7,Some College,Yes,No,7.0,75.6
+STD_1354,Female,17,26.6,76.6,80.3,Associate Degree,Yes,Yes,7.3,96.7
+STD_1355,Female,18,21.5,81.4,67.8,Some College,Yes,Yes,8.6,76.4
+STD_1356,Male,17,14.1,78.4,74.8,Associate Degree,Yes,No,9.8,77.2
+STD_1357,Male,19,17.0,74.8,80.0,Bachelor's,Yes,No,6.5,75.3
+STD_1358,Male,16,17.1,90.8,62.1,Some College,Yes,Yes,7.1,75.3
+STD_1359,Male,16,25.5,91.4,67.5,Associate Degree,Yes,Yes,6.0,87.8
+STD_1360,Male,16,19.1,86.9,81.0,Associate Degree,Yes,No,6.5,91.2
+STD_1361,Male,17,24.1,100.0,79.3,Associate Degree,Yes,No,8.1,99.3
+STD_1362,Male,15,11.8,75.2,71.8,Master's,Yes,No,8.0,70.3
+STD_1363,Male,19,27.7,87.0,70.1,Bachelor's,Yes,Yes,7.8,100.0
+STD_1364,Male,16,9.0,92.9,75.6,High School,Yes,No,7.6,75.9
+STD_1365,Female,15,19.2,76.6,48.6,Bachelor's,No,Yes,5.6,71.8
+STD_1366,Male,18,28.5,83.3,68.6,Bachelor's,Yes,No,7.4,96.4
+STD_1367,Female,18,19.5,94.6,82.3,Some College,Yes,No,7.5,87.2
+STD_1368,Male,17,13.9,86.6,70.3,Master's,Yes,No,7.9,78.1
+STD_1369,Male,15,13.0,83.7,75.5,Some College,Yes,No,7.8,70.5
+STD_1370,Female,16,21.0,81.2,90.3,Associate Degree,Yes,Yes,6.4,94.9
+STD_1371,Male,15,9.5,90.6,84.4,Some College,No,Yes,6.1,82.6
+STD_1372,Male,18,9.0,79.7,83.2,Associate Degree,No,No,9.7,74.9
+STD_1373,Male,15,17.7,90.0,92.1,Bachelor's,Yes,No,7.3,99.8
+STD_1374,Female,18,21.6,84.4,46.5,Bachelor's,Yes,No,6.4,78.8
+STD_1375,Female,17,21.8,61.7,76.9,Bachelor's,Yes,Yes,7.5,87.4
+STD_1376,Female,16,10.2,74.3,68.5,Master's,No,No,6.9,66.3
+STD_1377,Male,17,30.7,96.5,91.4,High School,Yes,Yes,7.0,100.0
+STD_1378,Female,19,26.0,70.4,72.2,High School,Yes,Yes,6.3,81.9
+STD_1379,Female,16,20.3,84.2,79.3,Bachelor's,Yes,No,6.0,88.8
+STD_1380,Female,16,23.5,91.7,54.1,Bachelor's,Yes,No,6.7,82.9
+STD_1381,Female,15,15.2,94.3,69.7,Some College,Yes,No,8.1,80.0
+STD_1382,Male,18,14.8,87.3,79.2,Bachelor's,Yes,No,7.6,85.7
+STD_1383,Male,16,18.6,86.8,59.9,Associate Degree,Yes,Yes,8.6,72.2
+STD_1384,Male,19,14.5,83.4,75.6,Associate Degree,Yes,No,6.8,81.6
+STD_1385,Female,17,11.8,98.7,60.1,Some College,No,No,4.6,69.8
+STD_1386,Male,18,25.6,84.5,73.3,Master's,Yes,Yes,7.6,92.7
+STD_1387,Female,18,20.5,100.0,62.0,Bachelor's,No,No,8.6,78.1
+STD_1388,Male,15,18.3,80.7,46.5,Associate Degree,Yes,No,8.4,63.8
+STD_1389,Female,18,17.7,84.8,56.7,Master's,Yes,No,8.3,76.9
+STD_1390,Male,15,27.2,84.0,67.3,Bachelor's,Yes,No,9.6,88.9
+STD_1391,Male,19,22.2,89.0,91.7,Bachelor's,Yes,No,7.8,98.9
+STD_1392,Female,16,18.9,86.8,75.6,High School,Yes,No,5.3,79.1
+STD_1393,Female,19,14.0,81.4,65.3,Some College,No,Yes,5.1,71.0
+STD_1394,Female,18,23.5,75.9,74.6,Master's,Yes,No,7.1,85.7
+STD_1395,Female,15,20.4,90.4,65.2,High School,Yes,No,7.8,77.9
+STD_1396,Female,19,18.6,92.0,83.9,Associate Degree,Yes,No,6.4,89.0
+STD_1397,Female,16,23.6,80.3,63.0,Master's,Yes,Yes,6.1,81.6
+STD_1398,Male,17,19.9,85.7,78.7,Bachelor's,Yes,No,6.9,91.6
+STD_1399,Female,15,12.0,84.8,58.2,Associate Degree,Yes,Yes,8.4,71.9
+STD_1400,Female,15,9.8,88.3,75.1,Master's,Yes,No,5.7,80.1
+STD_1401,Female,19,21.2,92.1,67.4,High School,Yes,No,8.3,75.1
+STD_1402,Male,17,18.2,90.0,90.4,Associate Degree,No,No,5.4,92.9
+STD_1403,Female,16,13.3,71.7,62.1,Associate Degree,Yes,Yes,7.2,64.3
+STD_1404,Male,15,21.1,74.3,70.3,Bachelor's,No,Yes,7.4,80.6
+STD_1405,Male,16,20.3,84.9,74.8,High School,Yes,No,6.6,80.7
+STD_1406,Female,19,10.2,81.2,75.1,Some College,Yes,No,6.6,62.1
+STD_1407,Female,16,17.2,86.9,62.4,Master's,Yes,No,6.5,75.6
+STD_1408,Male,19,31.4,87.7,65.9,High School,Yes,Yes,5.8,84.0
+STD_1409,Male,18,14.3,99.2,60.8,Some College,Yes,Yes,6.4,76.0
+STD_1410,Female,17,22.7,79.7,66.5,Some College,Yes,Yes,6.7,87.2
+STD_1411,Male,15,13.3,87.8,65.4,Some College,Yes,Yes,8.3,74.4
+STD_1412,Female,15,19.9,73.0,75.4,High School,Yes,Yes,7.5,74.0
+STD_1413,Male,18,18.2,93.7,64.2,Bachelor's,Yes,No,9.1,79.9
+STD_1414,Male,19,15.2,92.1,72.5,High School,Yes,No,6.9,74.2
+STD_1415,Male,17,16.5,73.1,68.8,Master's,Yes,No,6.3,70.0
+STD_1416,Male,16,16.3,90.0,70.8,Some College,Yes,No,7.7,74.1
+STD_1417,Male,18,16.2,96.4,87.6,Bachelor's,Yes,No,6.6,93.6
+STD_1418,Male,18,21.2,96.3,68.3,High School,Yes,No,8.5,83.5
+STD_1419,Male,18,13.0,86.7,53.3,Bachelor's,Yes,No,5.3,69.9
+STD_1420,Female,15,24.9,78.9,72.9,Associate Degree,Yes,No,8.4,81.9
+STD_1421,Male,18,22.1,94.7,83.0,Bachelor's,Yes,No,6.8,95.3
+STD_1422,Female,15,27.1,100.0,64.2,Master's,Yes,No,7.7,91.0
+STD_1423,Male,18,24.1,78.6,62.3,Some College,Yes,No,7.6,79.9
+STD_1424,Male,15,25.3,76.4,65.5,Associate Degree,Yes,No,7.8,78.9
+STD_1425,Female,18,11.7,90.2,78.5,Bachelor's,No,No,8.0,76.0
+STD_1426,Male,16,20.2,82.9,52.7,Master's,Yes,Yes,8.4,77.7
+STD_1427,Female,15,30.0,97.8,66.1,Bachelor's,No,No,9.1,94.6
+STD_1428,Female,18,18.7,77.8,99.0,Bachelor's,Yes,No,6.4,88.6
+STD_1429,Male,15,15.9,90.1,60.6,Associate Degree,Yes,No,7.4,71.0
+STD_1430,Male,16,13.3,95.7,86.0,Associate Degree,No,Yes,7.0,90.1
+STD_1431,Female,16,12.9,84.4,72.0,Bachelor's,Yes,No,9.2,75.4
+STD_1432,Female,19,23.1,100.0,51.1,Associate Degree,Yes,No,9.5,74.8
+STD_1433,Female,19,26.0,71.3,54.4,Some College,No,Yes,5.8,76.6
+STD_1434,Female,18,21.4,91.0,63.1,Associate Degree,Yes,Yes,6.5,82.9
+STD_1435,Male,18,16.0,84.6,90.0,Bachelor's,Yes,No,8.3,88.2
+STD_1436,Female,17,16.2,77.5,71.4,Bachelor's,Yes,Yes,7.9,79.7
+STD_1437,Male,17,16.3,92.6,83.8,Associate Degree,Yes,Yes,8.8,93.2
+STD_1438,Female,17,37.5,78.0,76.8,Some College,No,Yes,10.5,94.9
+STD_1439,Female,19,12.0,92.6,78.0,Master's,Yes,No,5.1,85.5
+STD_1440,Female,17,16.5,93.1,83.9,Some College,Yes,No,5.9,85.1
+STD_1441,Female,16,5.7,92.6,58.0,High School,Yes,No,6.6,60.5
+STD_1442,Female,18,17.4,62.2,66.7,Associate Degree,Yes,No,6.7,62.6
+STD_1443,Male,16,16.7,82.3,56.8,Bachelor's,Yes,Yes,5.5,79.2
+STD_1444,Female,17,16.4,99.1,62.0,High School,Yes,Yes,7.6,78.7
+STD_1445,Female,17,7.2,91.7,64.7,Master's,Yes,Yes,7.2,81.6
+STD_1446,Male,15,17.6,80.7,66.2,Associate Degree,Yes,No,6.8,73.0
+STD_1447,Male,15,22.6,74.8,36.1,Bachelor's,Yes,Yes,8.8,67.2
+STD_1448,Male,15,11.9,87.9,93.3,Some College,Yes,Yes,5.4,85.5
+STD_1449,Female,19,22.1,94.8,81.3,Some College,Yes,No,7.4,94.2
+STD_1450,Female,19,14.3,90.5,88.8,Some College,Yes,Yes,5.4,81.6
+STD_1451,Female,15,31.5,67.4,55.8,Bachelor's,Yes,Yes,8.0,83.7
+STD_1452,Female,19,16.7,96.3,80.0,Some College,Yes,No,6.9,75.6
+STD_1453,Female,15,8.1,95.9,66.3,High School,No,No,6.7,59.8
+STD_1454,Female,15,11.5,77.6,45.5,High School,Yes,Yes,7.6,62.0
+STD_1455,Female,15,9.6,91.9,74.1,High School,Yes,No,7.1,72.0
+STD_1456,Female,17,21.7,88.1,84.6,Master's,Yes,No,8.9,94.6
+STD_1457,Female,16,30.2,70.6,68.0,Master's,Yes,No,8.0,86.9
+STD_1458,Female,18,13.4,73.9,72.7,High School,Yes,No,4.9,67.1
+STD_1459,Female,19,16.2,74.3,59.3,Associate Degree,Yes,Yes,6.4,73.8
+STD_1460,Female,17,19.9,86.2,81.7,Bachelor's,Yes,Yes,6.5,91.9
+STD_1461,Male,15,16.1,81.7,55.6,Associate Degree,Yes,Yes,6.0,74.0
+STD_1462,Male,19,10.4,100.0,81.0,Bachelor's,Yes,No,6.5,81.0
+STD_1463,Female,17,20.8,92.4,84.3,Associate Degree,Yes,No,5.8,86.6
+STD_1464,Male,15,19.5,81.1,73.7,Associate Degree,Yes,No,6.9,83.4
+STD_1465,Female,18,16.3,89.3,70.7,Master's,Yes,No,6.9,81.3
+STD_1466,Male,18,12.8,94.6,71.5,High School,Yes,No,6.4,74.7
+STD_1467,Male,15,14.1,81.4,62.0,High School,Yes,No,7.7,61.8
+STD_1468,Female,16,21.7,85.2,46.1,Master's,Yes,No,6.5,71.3
+STD_1469,Male,15,6.8,79.6,56.4,Associate Degree,Yes,No,6.1,63.0
+STD_1470,Male,18,20.6,91.4,72.5,Bachelor's,Yes,Yes,7.8,90.6
+STD_1471,Male,18,17.0,85.0,65.9,Master's,Yes,No,6.2,82.9
+STD_1472,Male,16,16.8,88.3,91.7,Some College,Yes,No,8.6,88.1
+STD_1473,Female,18,16.6,89.0,65.5,Master's,Yes,No,6.0,81.5
+STD_1474,Male,18,12.2,84.4,71.7,High School,No,No,7.9,65.7
+STD_1475,Male,19,18.5,89.3,50.8,Some College,Yes,No,6.2,71.7
+STD_1476,Male,16,18.4,75.0,73.9,Associate Degree,Yes,Yes,5.0,81.4
+STD_1477,Male,16,17.9,86.3,69.4,Master's,Yes,No,6.7,79.5
+STD_1478,Female,19,16.4,86.6,52.3,Master's,No,No,7.3,69.6
+STD_1479,Female,16,6.8,95.0,61.0,Associate Degree,Yes,Yes,10.5,79.7
+STD_1480,Female,18,24.2,91.5,61.2,Associate Degree,Yes,No,9.6,79.7
+STD_1481,Male,17,11.1,85.9,79.9,Master's,Yes,Yes,7.5,81.9
+STD_1482,Male,19,14.2,83.7,77.0,Master's,Yes,Yes,7.0,87.2
+STD_1483,Female,15,21.7,90.5,71.1,Bachelor's,Yes,No,7.1,86.3
+STD_1484,Female,15,21.7,78.9,80.1,Some College,No,No,5.3,75.3
+STD_1485,Female,18,14.2,79.6,74.6,Master's,Yes,No,5.9,82.1
+STD_1486,Male,17,23.3,86.0,99.0,Some College,Yes,No,6.0,97.5
+STD_1487,Male,17,12.6,81.0,57.8,Master's,Yes,No,8.8,68.0
+STD_1488,Male,19,18.7,95.0,74.9,Master's,Yes,Yes,6.6,90.5
+STD_1489,Female,17,32.2,68.9,67.1,Master's,Yes,Yes,4.4,90.4
+STD_1490,Male,17,19.6,87.9,63.5,Some College,No,No,7.9,67.4
+STD_1491,Male,18,16.6,100.0,66.8,High School,Yes,No,6.1,69.3
+STD_1492,Male,19,20.9,87.8,66.8,Bachelor's,Yes,No,5.8,80.4
+STD_1493,Female,18,17.3,83.4,57.4,Bachelor's,Yes,No,5.2,70.9
+STD_1494,Female,16,22.1,78.7,74.9,Associate Degree,No,No,7.2,77.1
+STD_1495,Male,17,27.4,80.8,68.6,High School,Yes,Yes,7.2,88.9
+STD_1496,Female,17,7.0,66.7,84.1,Some College,Yes,Yes,7.8,77.9
+STD_1497,Male,18,22.4,69.4,59.0,Bachelor's,Yes,Yes,7.9,82.5
+STD_1498,Male,17,13.2,68.5,68.8,Bachelor's,Yes,No,7.5,65.4
+STD_1499,Female,17,24.2,75.9,63.8,Master's,Yes,Yes,9.0,85.5
+STD_1500,Female,17,15.0,93.8,95.3,Associate Degree,Yes,No,8.6,92.7
+STD_1501,Male,15,17.5,85.4,70.3,Associate Degree,Yes,Yes,7.8,85.0
+STD_1502,Male,16,16.6,100.0,73.5,Associate Degree,Yes,No,8.5,88.1
+STD_1503,Female,17,26.8,88.8,89.0,Master's,Yes,No,8.5,100.0
+STD_1504,Male,15,11.4,82.6,79.8,Bachelor's,Yes,No,5.3,82.7
+STD_1505,Female,17,14.3,82.5,66.1,High School,Yes,No,7.1,68.4
+STD_1506,Male,15,26.1,81.1,59.7,Associate Degree,Yes,Yes,7.0,93.2
+STD_1507,Female,15,21.5,92.7,68.4,Master's,Yes,No,6.9,82.8
+STD_1508,Male,16,12.8,83.5,71.3,Bachelor's,Yes,Yes,8.7,75.0
+STD_1509,Female,19,3.0,94.7,70.2,Some College,Yes,Yes,7.3,70.1
+STD_1510,Male,16,18.9,89.3,47.9,Bachelor's,Yes,No,8.8,72.3
+STD_1511,Female,19,8.7,78.2,61.6,High School,No,No,7.8,57.4
+STD_1512,Female,18,24.2,70.5,64.9,Some College,Yes,Yes,6.9,76.7
+STD_1513,Male,16,9.7,71.3,67.6,High School,Yes,No,7.5,59.1
+STD_1514,Male,16,10.4,87.9,71.1,Master's,No,No,6.7,76.3
+STD_1515,Female,16,13.7,68.3,84.4,Bachelor's,Yes,No,8.3,76.9
+STD_1516,Male,19,14.8,100.0,86.6,Some College,Yes,Yes,7.0,88.7
+STD_1517,Male,19,11.5,78.0,62.6,Master's,Yes,No,8.8,76.7
+STD_1518,Male,15,17.1,80.4,68.9,Associate Degree,Yes,No,5.8,75.3
+STD_1519,Female,19,11.8,79.7,76.4,High School,Yes,No,7.8,74.3
+STD_1520,Female,18,16.6,84.5,61.9,Bachelor's,Yes,No,7.3,75.2
+STD_1521,Male,15,29.3,70.3,67.4,Associate Degree,Yes,No,7.2,90.6
+STD_1522,Female,16,18.4,89.4,58.6,Associate Degree,Yes,No,8.0,73.3
+STD_1523,Male,15,26.2,85.0,73.3,Bachelor's,Yes,No,7.8,86.9
+STD_1524,Female,17,22.7,96.3,65.4,Bachelor's,No,No,6.5,79.8
+STD_1525,Male,17,24.2,92.7,67.7,Master's,Yes,Yes,6.4,89.3
+STD_1526,Female,16,17.5,85.1,71.0,Associate Degree,Yes,Yes,5.8,78.3
+STD_1527,Male,15,17.0,73.5,82.9,Some College,Yes,No,7.3,77.5
+STD_1528,Female,15,11.5,73.6,79.3,High School,Yes,Yes,7.9,72.0
+STD_1529,Male,19,22.8,100.0,50.7,Some College,Yes,Yes,7.1,78.6
+STD_1530,Female,16,30.6,88.8,66.2,High School,Yes,Yes,8.5,87.4
+STD_1531,Female,15,10.4,82.9,71.6,High School,Yes,No,6.5,76.9
+STD_1532,Male,15,13.1,88.8,69.6,Some College,Yes,No,7.7,73.8
+STD_1533,Female,16,25.0,76.7,77.7,Bachelor's,Yes,Yes,6.8,100.0
+STD_1534,Male,17,10.4,100.0,78.6,Associate Degree,Yes,Yes,7.2,84.5
+STD_1535,Male,19,18.7,85.8,64.3,Some College,Yes,No,6.0,74.6
+STD_1536,Female,15,14.1,59.6,86.7,Some College,Yes,Yes,4.7,72.1
+STD_1537,Male,16,10.0,82.8,93.5,Some College,Yes,Yes,6.4,85.4
+STD_1538,Female,18,18.8,69.6,77.8,Bachelor's,Yes,Yes,5.6,85.6
+STD_1539,Male,18,15.2,100.0,78.0,Some College,Yes,No,6.2,78.6
+STD_1540,Male,15,22.3,85.3,76.6,High School,Yes,No,9.9,77.2
+STD_1541,Female,16,18.4,100.0,52.9,High School,Yes,No,7.2,73.5
+STD_1542,Female,17,20.7,100.0,76.2,High School,Yes,Yes,7.6,92.6
+STD_1543,Male,18,11.5,100.0,77.7,High School,Yes,Yes,6.3,78.5
+STD_1544,Male,15,32.0,88.1,69.6,Associate Degree,No,No,7.2,90.0
+STD_1545,Female,16,12.6,76.3,80.2,Associate Degree,Yes,No,8.4,69.6
+STD_1546,Male,16,23.0,89.3,55.5,Bachelor's,Yes,No,9.4,82.2
+STD_1547,Female,15,19.3,97.5,59.8,Bachelor's,Yes,No,7.3,80.8
+STD_1548,Female,16,22.4,88.3,82.4,Associate Degree,Yes,Yes,9.4,92.7
+STD_1549,Male,19,14.0,87.2,56.4,Bachelor's,Yes,No,5.7,66.9
+STD_1550,Female,19,18.4,93.8,83.1,Associate Degree,No,Yes,8.2,94.7
+STD_1551,Male,19,10.4,95.7,57.4,Associate Degree,Yes,Yes,6.2,76.6
+STD_1552,Female,16,17.7,88.8,68.6,Bachelor's,Yes,No,5.4,84.5
+STD_1553,Female,15,8.3,90.5,45.1,Some College,No,No,9.9,59.3
+STD_1554,Female,19,17.7,83.6,81.2,High School,Yes,Yes,8.6,80.6
+STD_1555,Female,16,11.3,67.5,62.6,High School,Yes,No,6.0,64.1
+STD_1556,Female,17,23.7,100.0,70.3,Associate Degree,Yes,No,7.8,84.2
+STD_1557,Female,15,15.3,100.0,86.7,Associate Degree,Yes,No,5.9,92.4
+STD_1558,Male,15,12.3,84.0,67.7,Some College,Yes,No,7.1,68.7
+STD_1559,Male,15,8.2,69.5,84.3,Bachelor's,Yes,Yes,9.7,83.9
+STD_1560,Male,19,17.1,88.4,60.8,Some College,Yes,No,6.2,74.1
+STD_1561,Male,15,19.9,98.6,88.3,High School,Yes,Yes,7.1,91.4
+STD_1562,Female,18,12.1,82.6,43.8,Associate Degree,Yes,No,6.6,67.9
+STD_1563,Female,15,20.0,86.2,63.6,Some College,No,Yes,6.6,85.7
+STD_1564,Male,19,23.6,83.2,69.6,Some College,Yes,No,9.1,77.0
+STD_1565,Male,16,24.5,96.8,56.7,Associate Degree,Yes,Yes,8.4,89.2
+STD_1566,Male,16,15.0,89.2,87.4,High School,Yes,Yes,8.1,86.4
+STD_1567,Female,19,17.4,84.6,81.8,Some College,Yes,Yes,7.9,90.3
+STD_1568,Female,17,18.7,81.4,46.0,Some College,Yes,Yes,5.7,72.4
+STD_1569,Female,19,14.5,82.5,76.3,Some College,Yes,Yes,6.2,78.7
+STD_1570,Female,16,18.3,82.7,46.7,Some College,Yes,No,7.7,68.8
+STD_1571,Male,18,23.2,81.4,87.5,Master's,Yes,Yes,7.5,98.1
+STD_1572,Male,16,18.2,80.7,84.9,Master's,Yes,Yes,6.5,90.4
+STD_1573,Male,15,16.1,78.9,65.2,Associate Degree,Yes,Yes,6.3,85.1
+STD_1574,Female,19,20.0,100.0,82.0,Bachelor's,Yes,No,9.7,91.8
+STD_1575,Male,15,20.7,83.3,94.1,Associate Degree,Yes,No,6.9,92.7
+STD_1576,Male,15,7.9,93.4,92.7,High School,Yes,No,6.0,83.2
+STD_1577,Female,17,17.4,75.3,51.2,High School,Yes,Yes,5.4,65.3
+STD_1578,Male,17,21.2,79.0,85.7,Associate Degree,Yes,Yes,7.8,92.3
+STD_1579,Male,17,12.7,73.7,67.8,Bachelor's,Yes,Yes,7.0,74.8
+STD_1580,Female,15,13.6,80.0,68.0,Bachelor's,Yes,No,7.2,75.1
+STD_1581,Male,18,19.7,88.2,88.5,High School,Yes,No,8.3,88.7
+STD_1582,Male,19,14.3,90.4,44.0,Associate Degree,Yes,No,6.8,62.9
+STD_1583,Female,16,23.2,76.6,54.4,Bachelor's,No,Yes,8.2,70.8
+STD_1584,Male,16,23.1,92.0,71.1,Master's,Yes,No,7.4,94.3
+STD_1585,Female,18,8.1,83.1,73.1,Some College,Yes,No,8.1,69.7
+STD_1586,Male,17,8.1,69.7,74.1,Bachelor's,Yes,No,8.2,62.1
+STD_1587,Male,18,15.1,77.2,74.3,High School,Yes,No,7.4,72.9
+STD_1588,Female,17,17.2,89.6,70.3,Some College,Yes,No,7.8,73.6
+STD_1589,Female,19,17.5,87.3,64.6,Associate Degree,Yes,Yes,6.6,85.7
+STD_1590,Female,16,11.1,80.4,71.3,Associate Degree,Yes,Yes,8.0,76.6
+STD_1591,Female,17,17.0,82.0,80.6,Associate Degree,No,No,7.4,87.0
+STD_1592,Male,15,24.1,88.1,76.3,Associate Degree,Yes,No,5.8,85.0
+STD_1593,Female,17,18.8,87.1,66.3,Master's,Yes,Yes,8.4,88.3
+STD_1594,Female,16,21.7,56.9,53.1,Bachelor's,Yes,No,5.6,64.5
+STD_1595,Male,18,8.7,82.6,74.8,Some College,Yes,Yes,9.7,75.2
+STD_1596,Male,15,19.1,83.3,66.8,Associate Degree,Yes,No,8.5,70.3
+STD_1597,Female,16,16.7,75.0,74.3,Associate Degree,Yes,No,6.7,77.1
+STD_1598,Male,19,20.7,82.4,98.8,High School,Yes,No,8.6,86.3
+STD_1599,Female,17,8.9,88.0,59.0,Master's,Yes,No,6.7,72.1
+STD_1600,Male,15,21.6,81.7,63.2,High School,Yes,No,8.1,74.7
+STD_1601,Female,16,20.9,100.0,62.7,High School,Yes,Yes,6.1,89.2
+STD_1602,Male,15,16.3,77.3,61.3,Associate Degree,Yes,No,5.9,68.4
+STD_1603,Male,17,23.9,100.0,74.1,Master's,Yes,Yes,5.7,99.4
+STD_1604,Male,15,18.2,79.5,90.0,Some College,Yes,No,6.4,94.5
+STD_1605,Male,15,28.2,71.4,62.3,High School,Yes,No,5.8,79.6
+STD_1606,Male,19,19.4,75.6,63.9,Associate Degree,Yes,No,7.0,75.6
+STD_1607,Female,19,13.1,91.5,82.2,Master's,Yes,No,8.5,93.4
+STD_1608,Male,18,15.8,80.3,60.8,Master's,Yes,No,7.1,73.9
+STD_1609,Female,18,28.3,100.0,78.2,Associate Degree,Yes,Yes,8.0,99.1
+STD_1610,Male,19,13.7,81.3,69.7,Some College,Yes,No,6.2,69.7
+STD_1611,Male,16,14.4,99.6,50.2,High School,Yes,No,7.6,64.4
+STD_1612,Male,18,21.0,72.7,77.6,Bachelor's,Yes,Yes,9.8,82.7
+STD_1613,Male,15,12.6,100.0,80.6,High School,Yes,No,8.5,79.6
+STD_1614,Male,15,18.5,83.5,62.1,Master's,No,Yes,7.3,75.7
+STD_1615,Female,16,20.4,90.3,82.1,Bachelor's,No,No,9.5,82.8
+STD_1616,Female,17,17.2,96.4,98.9,Bachelor's,Yes,Yes,7.7,100.0
+STD_1617,Female,17,19.0,96.3,76.8,Master's,Yes,No,6.5,84.6
+STD_1618,Female,17,12.0,98.0,68.1,Associate Degree,Yes,No,7.1,78.5
+STD_1619,Male,19,10.4,81.3,69.0,Some College,Yes,No,6.9,71.7
+STD_1620,Female,18,19.0,82.8,60.3,High School,Yes,No,7.7,69.6
+STD_1621,Male,19,15.2,75.3,65.3,Associate Degree,Yes,No,9.2,70.4
+STD_1622,Female,18,23.7,98.6,82.8,Associate Degree,Yes,No,6.3,96.1
+STD_1623,Male,16,23.3,78.2,65.6,Some College,Yes,No,7.5,77.2
+STD_1624,Female,19,10.7,86.1,74.5,High School,Yes,No,7.4,68.3
+STD_1625,Male,19,18.1,99.1,78.0,Bachelor's,Yes,Yes,6.7,95.2
+STD_1626,Male,18,11.4,100.0,51.8,Associate Degree,Yes,Yes,5.5,75.3
+STD_1627,Male,18,10.4,71.5,78.5,High School,Yes,Yes,9.5,67.9
+STD_1628,Male,18,21.3,92.6,79.2,Associate Degree,Yes,No,7.2,85.0
+STD_1629,Male,18,28.7,77.3,65.7,Associate Degree,Yes,No,7.8,82.1
+STD_1630,Male,19,16.0,90.4,70.2,Some College,Yes,No,6.6,74.8
+STD_1631,Male,17,26.9,100.0,74.9,Associate Degree,Yes,No,7.2,83.7
+STD_1632,Female,19,17.6,79.8,60.4,Some College,Yes,No,9.7,72.6
+STD_1633,Male,19,24.1,80.2,77.6,High School,Yes,No,8.6,82.4
+STD_1634,Female,17,21.7,69.5,65.3,Some College,Yes,Yes,6.7,70.6
+STD_1635,Male,18,9.6,84.1,51.9,Master's,Yes,No,8.3,68.5
+STD_1636,Male,15,13.7,75.3,65.2,Associate Degree,Yes,No,8.1,67.0
+STD_1637,Male,18,26.3,85.9,88.4,High School,Yes,No,7.8,93.6
+STD_1638,Male,17,23.2,70.9,67.5,Bachelor's,Yes,Yes,7.4,87.1
+STD_1639,Male,16,26.4,94.8,61.0,Associate Degree,Yes,No,6.4,83.7
+STD_1640,Female,18,20.7,91.3,68.2,Bachelor's,Yes,No,6.5,84.1
+STD_1641,Female,15,14.1,84.7,50.5,High School,Yes,No,7.4,59.8
+STD_1642,Male,18,10.0,84.3,61.7,Some College,Yes,No,6.5,68.9
+STD_1643,Male,15,30.7,75.5,78.5,Associate Degree,Yes,No,6.2,92.2
+STD_1644,Female,16,11.3,82.5,52.3,Master's,Yes,No,8.2,67.9
+STD_1645,Male,15,23.6,88.7,94.3,Some College,Yes,Yes,7.0,95.4
+STD_1646,Female,17,14.5,100.0,70.6,Master's,Yes,No,6.8,89.2
+STD_1647,Male,19,16.7,96.9,47.0,Master's,Yes,Yes,6.5,83.2
+STD_1648,Male,17,14.3,84.7,85.6,High School,No,No,5.8,80.3
+STD_1649,Male,18,22.8,81.3,71.1,Bachelor's,Yes,Yes,8.3,90.4
+STD_1650,Female,18,22.3,74.4,49.0,Associate Degree,Yes,No,6.4,77.5
