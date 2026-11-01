@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
-import { Terminal, Shield, User, Lock, Mail, ArrowRight, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Terminal, Shield, User, Lock, Mail, ArrowRight, CheckCircle2, AlertCircle, GraduationCap, BookOpen } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 interface AuthPageProps {
-  onSuccess: () => void;
+  onSuccess: (user?: any) => void;
 }
 
 export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
-  const { login } = useAuth();
+  const { login, register } = useAuth();
+  const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [fullName, setFullName] = useState('');
+  const [selectedRole, setSelectedRole] = useState<'student' | 'mentor' | 'admin'>('student');
+  const [targetRole, setTargetRole] = useState('Data Scientist');
   
   // Extra flows: Forgot password
   const [isForgotPass, setIsForgotPass] = useState(false);
@@ -25,20 +29,30 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
 
     try {
       if (isForgotPass) {
-        // Simulated password reset
         await new Promise((r) => setTimeout(r, 600));
         setForgotSent(true);
         setIsLoading(false);
         return;
       }
 
-      await login(email, password);
-      onSuccess();
+      if (isLogin) {
+        const loggedUser = await login(email, password);
+        onSuccess(loggedUser);
+      } else {
+        const newUser = await register(email, password, fullName, selectedRole, targetRole);
+        onSuccess(newUser);
+      }
     } catch (err: any) {
       setError(err.message || 'Authentication failed. Please check your credentials.');
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const autofillRole = (roleEmail: string, rolePass: string) => {
+    setEmail(roleEmail);
+    setPassword(rolePass);
+    setError(null);
   };
 
   return (
@@ -50,14 +64,54 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
             <Terminal className="w-6 h-6" />
           </div>
           <h2 className="text-2xl font-bold text-slate-900 tracking-tight">
-            {isForgotPass ? 'Reset Your Password' : 'Welcome Back to Synapse'}
+            {isForgotPass ? 'Reset Your Password' : isLogin ? 'Welcome Back to Synapse' : 'Create Your Account'}
           </h2>
           <p className="text-xs text-slate-500 mt-1">
             {isForgotPass
-              ? 'Enter your administrator email to receive a password reset link'
-              : 'Sign in with your Administrator account to access the platform'}
+              ? 'Enter your registered email to receive a password reset link'
+              : isLogin
+              ? 'Sign in to access your role-based curriculum, mentoring, or administration portal'
+              : 'Join the Synapse adaptive learning and mentorship platform'}
           </p>
         </div>
+
+        {/* Quick Role Autofill Pills for Login Mode */}
+        {isLogin && !isForgotPass && (
+          <div className="mb-5 p-3 bg-slate-50 border border-slate-200/80 rounded-xl">
+            <div className="flex items-center justify-between text-xs mb-2">
+              <span className="font-semibold text-slate-600 text-[11px] uppercase tracking-wider">
+                Select Account Role:
+              </span>
+              <span className="text-[10px] text-slate-400">Autofills login</span>
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              <button
+                type="button"
+                onClick={() => autofillRole('admin@synapse.edu', 'AdminPass123!')}
+                className="px-2 py-1.5 bg-white hover:bg-purple-50 hover:border-purple-300 text-purple-700 text-xs font-semibold rounded-lg border border-slate-200 shadow-2xs transition-all flex items-center justify-center gap-1"
+              >
+                <Shield className="w-3.5 h-3.5" />
+                <span>Admin</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => autofillRole('mentor@synapse.edu', 'MentorPass123!')}
+                className="px-2 py-1.5 bg-white hover:bg-sky-50 hover:border-sky-300 text-sky-700 text-xs font-semibold rounded-lg border border-slate-200 shadow-2xs transition-all flex items-center justify-center gap-1"
+              >
+                <GraduationCap className="w-3.5 h-3.5" />
+                <span>Mentor</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => autofillRole('student@synapse.edu', 'StudentPass123!')}
+                className="px-2 py-1.5 bg-white hover:bg-indigo-50 hover:border-indigo-300 text-indigo-700 text-xs font-semibold rounded-lg border border-slate-200 shadow-2xs transition-all flex items-center justify-center gap-1"
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>Student</span>
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Error Alert */}
         {error && (
@@ -77,8 +131,56 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
 
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
+          {!isLogin && !isForgotPass && (
+            <>
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1">Full Name</label>
+                <div className="relative">
+                  <User className="w-4 h-4 absolute left-3 top-3 text-slate-400" />
+                  <input
+                    type="text"
+                    required
+                    value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                    placeholder="Dr. Jordan Hayes"
+                    className="w-full text-sm pl-9 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1">Platform Role</label>
+                <select
+                  value={selectedRole}
+                  onChange={(e) => setSelectedRole(e.target.value as any)}
+                  className="w-full text-sm px-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+                >
+                  <option value="student">Student (Learner)</option>
+                  <option value="mentor">Mentor (Faculty / Reviewer)</option>
+                  <option value="admin">Admin (Course Studio & Management)</option>
+                </select>
+              </div>
+
+              {selectedRole === 'student' && (
+                <div>
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">Target Career Role</label>
+                  <select
+                    value={targetRole}
+                    onChange={(e) => setTargetRole(e.target.value)}
+                    className="w-full text-sm px-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-white"
+                  >
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="AI Researcher">AI Researcher</option>
+                  </select>
+                </div>
+              )}
+            </>
+          )}
+
           <div>
-            <label className="block text-xs font-semibold text-slate-700 mb-1">Admin Email Address</label>
+            <label className="block text-xs font-semibold text-slate-700 mb-1">Email Address</label>
             <div className="relative">
               <Mail className="w-4 h-4 absolute left-3 top-3 text-slate-400" />
               <input
@@ -86,7 +188,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@synapse.edu"
+                placeholder="name@synapse.edu"
                 className="w-full text-sm pl-9 pr-3 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
@@ -96,16 +198,18 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
             <div>
               <div className="flex justify-between items-center mb-1">
                 <label className="block text-xs font-semibold text-slate-700">Password</label>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setIsForgotPass(true);
-                    setError(null);
-                  }}
-                  className="text-[11px] text-indigo-600 hover:text-indigo-700 font-medium"
-                >
-                  Forgot password?
-                </button>
+                {isLogin && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsForgotPass(true);
+                      setError(null);
+                    }}
+                    className="text-[11px] text-indigo-600 hover:text-indigo-700 font-medium"
+                  >
+                    Forgot password?
+                  </button>
+                )}
               </div>
               <div className="relative">
                 <Lock className="w-4 h-4 absolute left-3 top-3 text-slate-400" />
@@ -127,13 +231,17 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
             className="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-sm transition-all flex items-center justify-center space-x-2 text-sm disabled:opacity-50"
           >
             <span>
-              {isForgotPass ? 'Send Reset Link' : 'Sign In to Account'}
+              {isForgotPass
+                ? 'Send Reset Link'
+                : isLogin
+                ? 'Sign In to Account'
+                : 'Create Account & Sign In'}
             </span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </form>
 
-        {/* Footer */}
+        {/* Footer Toggle */}
         <div className="mt-6 text-center text-xs text-slate-500 space-y-2">
           {isForgotPass ? (
             <button
@@ -147,9 +255,34 @@ export const AuthPage: React.FC<AuthPageProps> = ({ onSuccess }) => {
               Back to Sign In
             </button>
           ) : (
-            <div className="pt-2 border-t border-slate-100 flex items-center justify-center text-[11px] text-slate-400">
-              <Shield className="w-3.5 h-3.5 mr-1 text-slate-400" />
-              <span>Admin Access Only</span>
+            <div>
+              {isLogin ? (
+                <>
+                  Need to register a new role account?{' '}
+                  <button
+                    onClick={() => {
+                      setIsLogin(false);
+                      setError(null);
+                    }}
+                    className="text-indigo-600 font-semibold hover:underline"
+                  >
+                    Register here
+                  </button>
+                </>
+              ) : (
+                <>
+                  Already have an account?{' '}
+                  <button
+                    onClick={() => {
+                      setIsLogin(true);
+                      setError(null);
+                    }}
+                    className="text-indigo-600 font-semibold hover:underline"
+                  >
+                    Sign in here
+                  </button>
+                </>
+              )}
             </div>
           )}
         </div>

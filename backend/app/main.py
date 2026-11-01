@@ -83,15 +83,17 @@ def on_startup():
 
 @app.post("/api/auth/register", response_model=TokenResponse)
 def register_user(req: UserRegister, db: Session = Depends(get_db)):
-    existing = db.query(User).filter(User.email == req.email.lower()).first()
+    clean_email = req.email.lower().strip()
+    existing = db.query(User).filter(User.email == clean_email).first()
     if existing:
         raise HTTPException(status_code=400, detail="An account with this email already exists.")
 
+    assigned_role = req.role if req.role in ["student", "mentor", "admin"] else "student"
     new_user = User(
-        email=req.email.lower(),
+        email=clean_email,
         hashed_password=hash_password(req.password),
-        full_name=req.full_name,
-        role="student",
+        full_name=req.full_name.strip(),
+        role=assigned_role,
         streak_days=1,
         avatar_url="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80"
     )
@@ -135,7 +137,8 @@ def register_user(req: UserRegister, db: Session = Depends(get_db)):
 
 @app.post("/api/auth/login", response_model=TokenResponse)
 def login_user(req: UserLogin, db: Session = Depends(get_db)):
-    user = db.query(User).filter(User.email == req.email.lower()).first()
+    clean_email = req.email.lower().strip()
+    user = db.query(User).filter(User.email == clean_email).first()
     if not user or not verify_password(req.password, user.hashed_password):
         raise HTTPException(status_code=401, detail="Invalid email or password.")
 

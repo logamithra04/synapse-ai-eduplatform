@@ -34,7 +34,7 @@ def seed_database(db: Session):
     db.add_all([instructor_1, instructor_2])
     db.flush()
 
-    # 2. Users (Single Admin Account)
+    # 2. Users (Admin, Mentor, Student)
     admin_user = User(
         email="admin@synapse.edu",
         hashed_password=hash_password("AdminPass123!"),
@@ -42,23 +42,56 @@ def seed_database(db: Session):
         role="admin",
         avatar_url="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=256&q=80",
         bio="Head of Academic Curriculum and Learning Technologies.",
-        streak_days=14
+        streak_days=15
     )
-    db.add(admin_user)
+    mentor_user = User(
+        email="mentor@synapse.edu",
+        hashed_password=hash_password("MentorPass123!"),
+        full_name="Dr. Elena Vance (Faculty Mentor)",
+        role="mentor",
+        avatar_url="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=256&q=80",
+        bio="Senior Data Science Researcher & Student Mentorship Director.",
+        streak_days=18
+    )
+    student_user = User(
+        email="student@synapse.edu",
+        hashed_password=hash_password("StudentPass123!"),
+        full_name="Alex Miller (Student)",
+        role="student",
+        avatar_url="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80",
+        bio="Aspiring Data Scientist with background in engineering, learning predictive modeling and statistics.",
+        streak_days=7
+    )
+    alex_user = User(
+        email="alex.miller@student.edu",
+        hashed_password=hash_password("StudentPass123!"),
+        full_name="Alex Miller",
+        role="student",
+        avatar_url="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80",
+        bio="Aspiring Data Scientist with background in engineering, learning predictive modeling and statistics.",
+        streak_days=7
+    )
+    db.add_all([admin_user, mentor_user, student_user, alex_user])
     db.flush()
 
-    # Admin StudentProfile (enables curriculum & lab access for admin)
-    admin_profile = StudentProfile(
-        user_id=admin_user.id,
-        current_level="Advanced",
-        target_role="Lead Data Scientist & Platform Admin",
-        daily_goal_mins=60,
-        diagnostic_completed=True,
-        diagnostic_score=98.5,
-        diagnostic_strengths=["Python Programming", "Machine Learning", "SQL and Databases"],
-        diagnostic_weaknesses=[]
-    )
-    db.add(admin_profile)
+    # Profiles for all roles
+    for u, level, target, score in [
+        (admin_user, "Advanced", "Lead Data Scientist & Platform Admin", 98.5),
+        (mentor_user, "Advanced", "Senior Academic Mentor", 95.0),
+        (student_user, "Intermediate", "Full-Stack Data Scientist", 82.0),
+        (alex_user, "Intermediate", "Full-Stack Data Scientist", 82.0),
+    ]:
+        p = StudentProfile(
+            user_id=u.id,
+            current_level=level,
+            target_role=target,
+            daily_goal_mins=45,
+            diagnostic_completed=True,
+            diagnostic_score=score,
+            diagnostic_strengths=["Python Programming", "Machine Learning", "SQL and Databases"],
+            diagnostic_weaknesses=[]
+        )
+        db.add(p)
 
     # 3. All 13 Categories Required
     categories_data = [

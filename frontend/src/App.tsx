@@ -149,9 +149,10 @@ const AppContent: React.FC = () => {
         )}
 
         {currentTab === 'auth' && (
-          <AuthPage onSuccess={() => {
-            if (user?.role === 'mentor') handleNavigate('mentor');
-            else if (user?.role === 'admin') handleNavigate('admin');
+          <AuthPage onSuccess={(loggedInUser) => {
+            const role = loggedInUser?.role || user?.role;
+            if (role === 'admin') handleNavigate('admin');
+            else if (role === 'mentor') handleNavigate('mentor');
             else handleNavigate('dashboard');
           }} />
         )}

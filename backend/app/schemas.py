@@ -7,6 +7,7 @@ class UserRegister(BaseModel):
     email: str
     password: str
     full_name: str
+    role: Optional[str] = "student"
     target_role: Optional[str] = "Data Scientist"
 
 class UserLogin(BaseModel):

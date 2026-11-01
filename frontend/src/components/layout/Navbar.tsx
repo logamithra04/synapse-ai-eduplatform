@@ -23,23 +23,32 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, openA
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
 
-  // Strict role-based navigation: Unwanted items removed for Admin and Mentor
+  // Comprehensive role-based navigation
   const getNavItems = (): NavItem[] => {
     if (!user) return [];
 
     if (user.role === 'admin') {
-      // Admin account: ONLY Course Studio and Curriculum Catalog Preview
+      // Admin account: Full platform oversight, Course Studio, and learning modules
       return [
         { id: 'admin', label: 'Course Studio', icon: Shield },
-        { id: 'courses', label: 'Curriculum Preview', icon: Terminal },
+        { id: 'courses', label: 'Curriculum', icon: Terminal },
+        { id: 'mentor', label: 'Mentor Portal', icon: GraduationCap },
+        { id: 'dashboard', label: 'Student View', icon: BookOpen },
+        { id: 'coding-lab', label: 'Coding Lab', icon: Code },
+        { id: 'projects', label: 'Projects', icon: Briefcase },
+        { id: 'analytics', label: 'Analytics', icon: BarChart2 },
       ];
     }
 
     if (user.role === 'mentor') {
-      // Mentor account: Institutional Cohort Oversight and Curriculum
+      // Mentor account: Institutional Cohort Oversight, review tools, and learning materials
       return [
         { id: 'mentor', label: 'Mentor Portal', icon: GraduationCap },
         { id: 'courses', label: 'Curriculum', icon: Terminal },
+        { id: 'dashboard', label: 'Cohort Learning', icon: BookOpen },
+        { id: 'coding-lab', label: 'Coding Lab', icon: Code },
+        { id: 'projects', label: 'Projects', icon: Briefcase },
+        { id: 'analytics', label: 'Analytics', icon: BarChart2 },
       ];
     }
 

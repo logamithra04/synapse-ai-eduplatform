@@ -112,8 +112,9 @@ npm run dev
 # Runs Vite dev server on http://localhost:5173
 ```
 
-### 3. Administrator Login Credentials
+### 3. Role Login Credentials
 
-* **Administrator Account**: `admin@synapse.edu`
-* **Password**: `AdminPass123!`
-*(The platform operates with a single dedicated administrator account).*
+* **Administrator Account**: `admin@synapse.edu` / `AdminPass123!` (Full platform oversight & Course Studio)
+* **Faculty Mentor Account**: `mentor@synapse.edu` / `MentorPass123!` (Student cohort oversight & curriculum)
+* **Student Account**: `student@synapse.edu` (or `alex.miller@student.edu`) / `StudentPass123!` (Learning modules & labs)
+*(Users can also register new accounts with their preferred role directly from the Sign In page).*

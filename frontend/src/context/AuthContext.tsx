@@ -6,8 +6,8 @@ interface AuthContextType {
   user: User | null;
   token: string | null;
   isLoading: boolean;
-  login: (email: string, pass: string) => Promise<void>;
-  register: (email: string, pass: string, name: string, role?: string) => Promise<void>;
+  login: (email: string, pass: string) => Promise<User>;
+  register: (email: string, pass: string, name: string, role?: string, target_role?: string) => Promise<User>;
   logout: () => void;
   refreshUser: () => Promise<void>;
 }
@@ -51,29 +51,40 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, [token]);
 
-  const login = async (email: string, pass: string) => {
+  const login = async (email: string, pass: string): Promise<User> => {
+    const cleanEmail = email.trim().toLowerCase();
     const data = await apiRequest<{ access_token: string; user: any }>('/auth/login', {
       method: 'POST',
-      body: JSON.stringify({ email, password: pass }),
+      body: JSON.stringify({ email: cleanEmail, password: pass }),
     });
     localStorage.setItem('synapse_token', data.access_token);
     setToken(data.access_token);
     setUser(data.user);
+    return data.user;
   };
 
-  const register = async (email: string, pass: string, name: string, target_role?: string) => {
+  const register = async (
+    email: string,
+    pass: string,
+    name: string,
+    role?: string,
+    target_role?: string
+  ): Promise<User> => {
+    const cleanEmail = email.trim().toLowerCase();
     const data = await apiRequest<{ access_token: string; user: any }>('/auth/register', {
       method: 'POST',
       body: JSON.stringify({
-        email,
+        email: cleanEmail,
         password: pass,
-        full_name: name,
+        full_name: name.trim(),
+        role: role || 'student',
         target_role: target_role || 'Data Scientist',
       }),
     });
     localStorage.setItem('synapse_token', data.access_token);
     setToken(data.access_token);
     setUser(data.user);
+    return data.user;
   };
 
   const logout = () => {
