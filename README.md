@@ -112,9 +112,8 @@ npm run dev
 # Runs Vite dev server on http://localhost:5173
 ```
 
-### 3. Demo Login Credentials
+### 3. Administrator Login Credentials
 
-* **Student Account**: `alex.miller@student.edu` / `StudentPass123!`
-* **Administrator Account**: `admin@synapse.edu` / `AdminPass123!`
-*(Quick 1-click login buttons are also built directly into the Sign-In interface).*
->>>>>>> 2dc39ab (Initial commit: Synapse AI Learning Platform with Supabase, Prisma ORM, Video Player, AI Tutor & Certs)
+* **Administrator Account**: `admin@synapse.edu`
+* **Password**: `AdminPass123!`
+*(The platform operates with a single dedicated administrator account).*

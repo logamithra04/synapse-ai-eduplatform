@@ -19,7 +19,7 @@ interface NavItem {
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, openAiTutor }) => {
-  const { user, logout, quickLoginAsStudent, quickLoginAsAdmin, quickLoginAsMentor } = useAuth();
+  const { user, logout } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
 
@@ -258,52 +258,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, openA
                           </button>
                         </>
                       )}
-
-                      <div className="border-t border-slate-100 my-1"></div>
-
-                      {/* Fast demo role switcher buttons */}
-                      <div className="px-2 py-1 space-y-1">
-                        <div className="text-[10px] uppercase font-bold text-slate-400 px-2 py-0.5">Switch Demo Role</div>
-                        {user.role !== 'student' && (
-                          <button
-                            onClick={() => {
-                              quickLoginAsStudent();
-                              setCurrentTab('dashboard');
-                              setProfileDropdownOpen(false);
-                            }}
-                            className="w-full text-left px-2 py-1.5 text-xs text-indigo-700 hover:bg-indigo-50 rounded flex items-center"
-                          >
-                            <BookOpen className="w-3.5 h-3.5 mr-1.5 text-indigo-500" />
-                            Switch to Student Demo
-                          </button>
-                        )}
-                        {user.role !== 'mentor' && (
-                          <button
-                            onClick={() => {
-                              quickLoginAsMentor();
-                              setCurrentTab('mentor');
-                              setProfileDropdownOpen(false);
-                            }}
-                            className="w-full text-left px-2 py-1.5 text-xs text-sky-700 hover:bg-sky-50 rounded flex items-center"
-                          >
-                            <GraduationCap className="w-3.5 h-3.5 mr-1.5 text-sky-500" />
-                            Switch to Mentor Demo
-                          </button>
-                        )}
-                        {user.role !== 'admin' && (
-                          <button
-                            onClick={() => {
-                              quickLoginAsAdmin();
-                              setCurrentTab('admin');
-                              setProfileDropdownOpen(false);
-                            }}
-                            className="w-full text-left px-2 py-1.5 text-xs text-purple-700 hover:bg-purple-50 rounded flex items-center"
-                          >
-                            <Shield className="w-3.5 h-3.5 mr-1.5 text-purple-500" />
-                            Switch to Admin Demo
-                          </button>
-                        )}
-                      </div>
 
                       <div className="border-t border-slate-100 my-1"></div>
 

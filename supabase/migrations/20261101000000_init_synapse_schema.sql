@@ -394,17 +394,18 @@ VALUES
 (2, 'Marcus Sterling', 'Lead Analytics Architect & SQL Specialist', '12+ years optimizing enterprise data pipelines, relational modeling, and business intelligence architectures.', 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80', 'SQL, Databases, Pandas, Data Engineering', 4.90)
 ON CONFLICT (id) DO NOTHING;
 
--- 2. Users (Admin, Mentor, Student)
--- Passwords:
+-- 2. Single Admin User (Only authorized account)
 -- admin@synapse.edu -> AdminPass123!
--- mentor@synapse.edu -> MentorPass123!
--- alex.miller@student.edu -> StudentPass123!
 INSERT INTO users (id, email, hashed_password, full_name, role, avatar_url, bio, streak_days)
 VALUES
-(1, 'admin@synapse.edu', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW', 'Dr. Sarah Chen (Admin)', 'admin', 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=256&q=80', 'Head of Academic Curriculum and Learning Technologies.', 14),
-(2, 'mentor@synapse.edu', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW', 'Dr. Elena Vance (Faculty Mentor)', 'mentor', 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=256&q=80', 'Senior Data Science Researcher & Student Mentorship Director.', 18),
-(3, 'alex.miller@student.edu', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW', 'Alex Miller', 'student', 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80', 'Aspiring Data Scientist with background in engineering, learning predictive modeling and statistics.', 5)
-ON CONFLICT (id) DO NOTHING;
+(1, 'admin@synapse.edu', '$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW', 'Dr. Sarah Chen (Admin)', 'admin', 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=256&q=80', 'Head of Academic Curriculum and Learning Technologies.', 14)
+ON CONFLICT (id) DO UPDATE SET
+  email = EXCLUDED.email,
+  role = EXCLUDED.role,
+  full_name = EXCLUDED.full_name;
+
+DELETE FROM student_profiles WHERE user_id != 1;
+DELETE FROM users WHERE id != 1;
 
 -- 3. 13 Course Categories
 INSERT INTO course_categories (id, name, slug, description, icon, display_order)

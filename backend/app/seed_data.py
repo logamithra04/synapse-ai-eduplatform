@@ -34,7 +34,7 @@ def seed_database(db: Session):
     db.add_all([instructor_1, instructor_2])
     db.flush()
 
-    # 2. Users (Admin + Student)
+    # 2. Users (Single Admin Account)
     admin_user = User(
         email="admin@synapse.edu",
         hashed_password=hash_password("AdminPass123!"),
@@ -44,39 +44,21 @@ def seed_database(db: Session):
         bio="Head of Academic Curriculum and Learning Technologies.",
         streak_days=14
     )
-    student_user = User(
-        email="alex.miller@student.edu",
-        hashed_password=hash_password("StudentPass123!"),
-        full_name="Alex Miller",
-        role="student",
-        avatar_url="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=256&q=80",
-        bio="Aspiring Data Scientist with background in engineering, learning predictive modeling and statistics.",
-        streak_days=5
-    )
-    mentor_user = User(
-        email="mentor@synapse.edu",
-        hashed_password=hash_password("MentorPass123!"),
-        full_name="Dr. Elena Vance (Faculty Mentor)",
-        role="mentor",
-        avatar_url="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=256&q=80",
-        bio="Senior Data Science Researcher & Student Mentorship Director.",
-        streak_days=18
-    )
-    db.add_all([admin_user, student_user, mentor_user])
+    db.add(admin_user)
     db.flush()
 
-    # Student Profile
-    student_profile = StudentProfile(
-        user_id=student_user.id,
-        current_level="Intermediate",
-        target_role="Full-Stack Data Scientist",
-        daily_goal_mins=45,
-        diagnostic_completed=False,
-        diagnostic_score=0.0,
-        diagnostic_strengths=[],
+    # Admin StudentProfile (enables curriculum & lab access for admin)
+    admin_profile = StudentProfile(
+        user_id=admin_user.id,
+        current_level="Advanced",
+        target_role="Lead Data Scientist & Platform Admin",
+        daily_goal_mins=60,
+        diagnostic_completed=True,
+        diagnostic_score=98.5,
+        diagnostic_strengths=["Python Programming", "Machine Learning", "SQL and Databases"],
         diagnostic_weaknesses=[]
     )
-    db.add(student_profile)
+    db.add(admin_profile)
 
     # 3. All 13 Categories Required
     categories_data = [
@@ -1061,7 +1043,7 @@ from sklearn.metrics import classification_report, average_precision_score
     ]
     for b in badges:
         ach = Achievement(
-            user_id=student_user.id,
+            user_id=admin_user.id,
             badge_key=b["key"],
             title=b["title"],
             description=b["desc"],
@@ -1070,22 +1052,22 @@ from sklearn.metrics import classification_report, average_precision_score
         )
         db.add(ach)
 
-    # 10. Student Initial Skills
+    # 10. Admin Initial Skills
     initial_skills = [
-        {"name": "Python Programming", "mastery": 72.0, "status": "moderate"},
-        {"name": "SQL and Databases", "mastery": 65.0, "status": "moderate"},
-        {"name": "Statistics and Probability", "mastery": 42.0, "status": "weak"},
-        {"name": "Machine Learning", "mastery": 55.0, "status": "moderate"},
-        {"name": "Data Analysis & EDA", "mastery": 80.0, "status": "strong"},
+        {"name": "Python Programming", "mastery": 95.0, "status": "strong"},
+        {"name": "SQL and Databases", "mastery": 92.0, "status": "strong"},
+        {"name": "Statistics and Probability", "mastery": 88.0, "status": "strong"},
+        {"name": "Machine Learning", "mastery": 94.0, "status": "strong"},
+        {"name": "Data Analysis & EDA", "mastery": 96.0, "status": "strong"},
     ]
     for s in initial_skills:
         sk = StudentSkill(
-            user_id=student_user.id,
+            user_id=admin_user.id,
             skill_name=s["name"],
             mastery_level=s["mastery"],
             strength_status=s["status"],
-            questions_attempted=12,
-            questions_correct=int(12 * (s["mastery"] / 100))
+            questions_attempted=20,
+            questions_correct=int(20 * (s["mastery"] / 100))
         )
         db.add(sk)
 

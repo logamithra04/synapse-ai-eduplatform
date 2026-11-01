@@ -10,9 +10,6 @@ interface AuthContextType {
   register: (email: string, pass: string, name: string, role?: string) => Promise<void>;
   logout: () => void;
   refreshUser: () => Promise<void>;
-  quickLoginAsStudent: () => Promise<void>;
-  quickLoginAsAdmin: () => Promise<void>;
-  quickLoginAsMentor: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -79,18 +76,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     setUser(data.user);
   };
 
-  const quickLoginAsStudent = async () => {
-    await login('alex.miller@student.edu', 'StudentPass123!');
-  };
-
-  const quickLoginAsAdmin = async () => {
-    await login('admin@synapse.edu', 'AdminPass123!');
-  };
-
-  const quickLoginAsMentor = async () => {
-    await login('mentor@synapse.edu', 'MentorPass123!');
-  };
-
   const logout = () => {
     localStorage.removeItem('synapse_token');
     setToken(null);
@@ -113,9 +98,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         register,
         logout,
         refreshUser,
-        quickLoginAsStudent,
-        quickLoginAsAdmin,
-        quickLoginAsMentor,
       }}
     >
       {children}

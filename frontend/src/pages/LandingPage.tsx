@@ -4,14 +4,11 @@ import {
   BarChart2, Award, Database, Cpu, Layers, Briefcase, 
   ChevronDown, Star, Compass, PlayCircle, ShieldCheck
 } from 'lucide-react';
-import { useAuth } from '../context/AuthContext';
-
 interface LandingPageProps {
   onNavigate: (tab: string, meta?: any) => void;
 }
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
-  const { quickLoginAsStudent, quickLoginAsAdmin } = useAuth();
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const categories = [
@@ -132,29 +129,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate }) => {
                 className="w-full sm:w-auto px-6 py-3.5 bg-white hover:bg-slate-50 text-slate-800 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all"
               >
                 Explore 13 Tracks
-              </button>
-            </div>
-
-            {/* Quick Demo Login Bar for User Convenience */}
-            <div className="pt-6 flex flex-wrap items-center justify-center gap-2 text-xs text-slate-500">
-              <span className="font-medium text-slate-400">One-click live demo:</span>
-              <button
-                onClick={async () => {
-                  await quickLoginAsStudent();
-                  onNavigate('dashboard');
-                }}
-                className="px-2.5 py-1 bg-white hover:bg-slate-50 text-indigo-700 font-medium rounded-md border border-indigo-200 transition-colors"
-              >
-                Launch as Student (Alex Miller)
-              </button>
-              <button
-                onClick={async () => {
-                  await quickLoginAsAdmin();
-                  onNavigate('admin');
-                }}
-                className="px-2.5 py-1 bg-white hover:bg-slate-50 text-purple-700 font-medium rounded-md border border-purple-200 transition-colors"
-              >
-                Launch as Admin (Dr. Sarah Chen)
               </button>
             </div>
           </div>
