@@ -196,7 +196,7 @@ export const DataTutorDrawer: React.FC<DataTutorDrawerProps> = ({
         {
           id: (Date.now() + 1).toString(),
           sender: 'assistant',
-          text: "I encountered an error connecting to the platform AI engine. Please verify the backend is running at http://127.0.0.1:8000.",
+          text: "I encountered an error connecting to the platform AI engine. Please verify the backend service is running.",
           timestamp: 'Just now',
           source: 'project_rag',
         },

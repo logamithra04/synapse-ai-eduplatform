@@ -5,7 +5,7 @@ import {
   Download, Eye, EyeOff, Table
 } from 'lucide-react';
 import { Project } from '../types';
-import { apiRequest } from '../api/client';
+import { apiRequest, API_BASE_URL } from '../api/client';
 import confetti from 'canvas-confetti';
 
 interface ProjectDetailPageProps {
@@ -171,7 +171,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
               {showDataPreview ? 'Hide Preview' : 'Preview Real Data'}
             </button>
             <a
-              href={project.dataset_download_url || `http://127.0.0.1:8000/api/datasets/${project.dataset_name}/download`}
+              href={project.dataset_download_url || `${API_BASE_URL}/datasets/${project.dataset_name}/download`}
               download={project.dataset_name}
               target="_blank"
               rel="noreferrer"

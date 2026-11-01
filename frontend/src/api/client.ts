@@ -1,4 +1,21 @@
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+/**
+ * Resolves the backend base URL dynamically:
+ * - Serverless / Node.js functions: Uses Vercel service binding process.env.BACKEND_URL
+ * - Client browser (Vite): Uses relative '/api' (matching Vercel service rewrite) or VITE_API_BASE_URL
+ */
+export const getApiBaseUrl = (): string => {
+  if (typeof process !== 'undefined' && process.env?.BACKEND_URL) {
+    const raw = process.env.BACKEND_URL.replace(/\/+$/, '');
+    return `${raw}/api`;
+  }
+  const envUrl = (import.meta as any).env?.VITE_API_BASE_URL;
+  if (envUrl) {
+    return envUrl.replace(/\/+$/, '');
+  }
+  return '/api';
+};
+
+export const API_BASE_URL = getApiBaseUrl();
 
 export async function apiRequest<T>(
   endpoint: string,

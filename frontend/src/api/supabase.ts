@@ -1,4 +1,5 @@
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
+import { API_BASE_URL } from './client';
 
 // LocalStorage Keys
 const STORAGE_URL_KEY = 'synapse_supabase_url';
@@ -147,7 +148,7 @@ export async function testSupabaseClientDirect(url: string, key: string): Promis
  * Fetch backend Supabase status from FastAPI
  */
 export async function fetchBackendSupabaseStatus(): Promise<SupabaseBackendStatus> {
-  const res = await fetch('http://127.0.0.1:8000/api/supabase/status');
+  const res = await fetch(`${API_BASE_URL}/supabase/status`);
   if (!res.ok) {
     throw new Error(`Failed to fetch backend Supabase status: ${res.statusText}`);
   }
@@ -162,7 +163,7 @@ export async function updateBackendSupabaseConfig(
   supabaseKey: string,
   databaseUrl?: string
 ): Promise<any> {
-  const res = await fetch('http://127.0.0.1:8000/api/supabase/config', {
+  const res = await fetch(`${API_BASE_URL}/supabase/config`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
@@ -181,7 +182,7 @@ export async function updateBackendSupabaseConfig(
  * Fetches the complete Supabase SQL Migration Script from backend
  */
 export async function fetchSupabaseSchemaSql(): Promise<string> {
-  const res = await fetch('http://127.0.0.1:8000/api/supabase/schema');
+  const res = await fetch(`${API_BASE_URL}/supabase/schema`);
   if (!res.ok) {
     throw new Error('Failed to load Supabase schema script.');
   }
@@ -199,7 +200,7 @@ export async function testDatabaseConnection(databaseUrl: string): Promise<{
   message?: string;
   error?: string;
 }> {
-  const res = await fetch('http://127.0.0.1:8000/api/supabase/test-db', {
+  const res = await fetch(`${API_BASE_URL}/supabase/test-db`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ database_url: databaseUrl }),

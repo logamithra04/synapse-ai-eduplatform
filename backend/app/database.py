@@ -6,7 +6,12 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_SQLITE_URL = "sqlite:///./platform.db"
+# Support writable /tmp directory on Vercel Serverless
+if os.getenv("VERCEL"):
+    DEFAULT_SQLITE_URL = "sqlite:////tmp/platform.db"
+else:
+    DEFAULT_SQLITE_URL = "sqlite:///./platform.db"
+
 DATABASE_URL = os.getenv("DATABASE_URL", DEFAULT_SQLITE_URL)
 
 Base = declarative_base()
